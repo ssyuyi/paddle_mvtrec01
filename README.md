@@ -102,7 +102,7 @@ paddle_autec
 
 ### 3.4 准备模型
 
-- 默认使用resnet18预训练模型进行训练，如想关闭,需要传入参数：`python train.py --no_pretrained`
+- 默认使用resnet18预训练模型进行训练，如想关闭,需要传入参数：`python train.py --pretrained False`
 
 ## 4. 开始使用
 
