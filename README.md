@@ -162,6 +162,7 @@ grid AUC: 0.9991645781119465
 ### 4.3 模型预测（需要预先完成4.1训练及4.2验证）
 
 - 基于原始代码的模型预测：`python tools/predict.py --defect_type bottle --img_file demo/bottle_good.png`
+
 部分结果如下：
 ```
 预测分数：12.288496017456055 < 最佳阈值： 53.726806640625 
