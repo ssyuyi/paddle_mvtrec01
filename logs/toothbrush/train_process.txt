@@ -1,0 +1,293 @@
+
+############################
+training toothbrush
+############################
+
+Type : toothbrush Train [ Epoch 1/256 iter 1 ] lr: 0.03000, loss: 1.32224, avg_reader_cost: 3.14992 sec, avg_batch_cost: 3.24646 sec, avg_samples: 60.0, avg_ips: 18.48169 images/sec.
+Type : toothbrush Train [ Epoch 2/256 iter 1 ] lr: 0.03000, loss: 0.96497, avg_reader_cost: 2.03174 sec, avg_batch_cost: 2.11575 sec, avg_samples: 60.0, avg_ips: 28.35875 images/sec.
+Type : toothbrush Train [ Epoch 3/256 iter 1 ] lr: 0.02998, loss: 0.79379, avg_reader_cost: 2.12696 sec, avg_batch_cost: 2.21028 sec, avg_samples: 60.0, avg_ips: 27.14582 images/sec.
+Type : toothbrush Train [ Epoch 4/256 iter 1 ] lr: 0.02996, loss: 0.90390, avg_reader_cost: 2.07102 sec, avg_batch_cost: 2.15452 sec, avg_samples: 60.0, avg_ips: 27.84842 images/sec.
+Type : toothbrush Train [ Epoch 5/256 iter 1 ] lr: 0.02993, loss: 0.99101, avg_reader_cost: 1.98936 sec, avg_batch_cost: 2.07257 sec, avg_samples: 60.0, avg_ips: 28.94957 images/sec.
+Type : toothbrush Train [ Epoch 6/256 iter 1 ] lr: 0.02989, loss: 0.73280, avg_reader_cost: 2.12899 sec, avg_batch_cost: 2.21490 sec, avg_samples: 60.0, avg_ips: 27.08925 images/sec.
+Type : toothbrush Train [ Epoch 7/256 iter 1 ] lr: 0.02984, loss: 0.74036, avg_reader_cost: 2.09755 sec, avg_batch_cost: 2.18266 sec, avg_samples: 60.0, avg_ips: 27.48936 images/sec.
+Type : toothbrush Train [ Epoch 8/256 iter 1 ] lr: 0.02978, loss: 0.70321, avg_reader_cost: 2.07310 sec, avg_batch_cost: 2.15895 sec, avg_samples: 60.0, avg_ips: 27.79130 images/sec.
+Type : toothbrush Test [ Epoch 8/256 ] test_cost: 4.592205 sec max_auc: 0.92500 roc_auc : 0.925000.
+Type : toothbrush Train [ Epoch 9/256 iter 1 ] lr: 0.02971, loss: 0.58758, avg_reader_cost: 1.99336 sec, avg_batch_cost: 2.07790 sec, avg_samples: 60.0, avg_ips: 28.87531 images/sec.
+Type : toothbrush Train [ Epoch 10/256 iter 1 ] lr: 0.02964, loss: 0.58742, avg_reader_cost: 2.02173 sec, avg_batch_cost: 2.10762 sec, avg_samples: 60.0, avg_ips: 28.46809 images/sec.
+Type : toothbrush Train [ Epoch 11/256 iter 1 ] lr: 0.02955, loss: 0.47222, avg_reader_cost: 2.12788 sec, avg_batch_cost: 2.21282 sec, avg_samples: 60.0, avg_ips: 27.11467 images/sec.
+Type : toothbrush Train [ Epoch 12/256 iter 1 ] lr: 0.02946, loss: 0.49751, avg_reader_cost: 1.88118 sec, avg_batch_cost: 1.96127 sec, avg_samples: 60.0, avg_ips: 30.59238 images/sec.
+Type : toothbrush Train [ Epoch 13/256 iter 1 ] lr: 0.02935, loss: 0.44701, avg_reader_cost: 1.87900 sec, avg_batch_cost: 1.96109 sec, avg_samples: 60.0, avg_ips: 30.59524 images/sec.
+Type : toothbrush Train [ Epoch 14/256 iter 1 ] lr: 0.02924, loss: 0.53721, avg_reader_cost: 1.87736 sec, avg_batch_cost: 1.95762 sec, avg_samples: 60.0, avg_ips: 30.64942 images/sec.
+Type : toothbrush Train [ Epoch 15/256 iter 1 ] lr: 0.02912, loss: 0.43719, avg_reader_cost: 1.94565 sec, avg_batch_cost: 2.03111 sec, avg_samples: 60.0, avg_ips: 29.54049 images/sec.
+Type : toothbrush Train [ Epoch 16/256 iter 1 ] lr: 0.02899, loss: 0.45035, avg_reader_cost: 1.87791 sec, avg_batch_cost: 1.96051 sec, avg_samples: 60.0, avg_ips: 30.60429 images/sec.
+Type : toothbrush Test [ Epoch 16/256 ] test_cost: 4.351997 sec max_auc: 0.97500 roc_auc : 0.975000.
+Type : toothbrush Train [ Epoch 17/256 iter 1 ] lr: 0.02886, loss: 0.35740, avg_reader_cost: 2.07380 sec, avg_batch_cost: 2.16220 sec, avg_samples: 60.0, avg_ips: 27.74949 images/sec.
+Type : toothbrush Train [ Epoch 18/256 iter 1 ] lr: 0.02871, loss: 0.47020, avg_reader_cost: 1.87752 sec, avg_batch_cost: 1.95747 sec, avg_samples: 60.0, avg_ips: 30.65174 images/sec.
+Type : toothbrush Train [ Epoch 19/256 iter 1 ] lr: 0.02856, loss: 0.47153, avg_reader_cost: 1.87920 sec, avg_batch_cost: 1.96027 sec, avg_samples: 60.0, avg_ips: 30.60807 images/sec.
+Type : toothbrush Train [ Epoch 20/256 iter 1 ] lr: 0.02840, loss: 0.40757, avg_reader_cost: 1.91493 sec, avg_batch_cost: 1.99762 sec, avg_samples: 60.0, avg_ips: 30.03573 images/sec.
+Type : toothbrush Train [ Epoch 21/256 iter 1 ] lr: 0.02823, loss: 0.33538, avg_reader_cost: 1.94963 sec, avg_batch_cost: 2.03500 sec, avg_samples: 60.0, avg_ips: 29.48397 images/sec.
+Type : toothbrush Train [ Epoch 22/256 iter 1 ] lr: 0.02805, loss: 0.42095, avg_reader_cost: 1.81974 sec, avg_batch_cost: 1.90567 sec, avg_samples: 60.0, avg_ips: 31.48501 images/sec.
+Type : toothbrush Train [ Epoch 23/256 iter 1 ] lr: 0.02787, loss: 0.41181, avg_reader_cost: 1.83437 sec, avg_batch_cost: 1.91380 sec, avg_samples: 60.0, avg_ips: 31.35132 images/sec.
+Type : toothbrush Train [ Epoch 24/256 iter 1 ] lr: 0.02767, loss: 0.45045, avg_reader_cost: 1.78655 sec, avg_batch_cost: 1.86844 sec, avg_samples: 60.0, avg_ips: 32.11229 images/sec.
+Type : toothbrush Test [ Epoch 24/256 ] test_cost: 4.316342 sec max_auc: 0.99167 roc_auc : 0.991667.
+Type : toothbrush Train [ Epoch 25/256 iter 1 ] lr: 0.02747, loss: 0.45688, avg_reader_cost: 1.87690 sec, avg_batch_cost: 1.95963 sec, avg_samples: 60.0, avg_ips: 30.61807 images/sec.
+Type : toothbrush Train [ Epoch 26/256 iter 1 ] lr: 0.02726, loss: 0.43306, avg_reader_cost: 1.88653 sec, avg_batch_cost: 1.96700 sec, avg_samples: 60.0, avg_ips: 30.50334 images/sec.
+Type : toothbrush Train [ Epoch 27/256 iter 1 ] lr: 0.02705, loss: 0.46878, avg_reader_cost: 1.86911 sec, avg_batch_cost: 1.94968 sec, avg_samples: 60.0, avg_ips: 30.77425 images/sec.
+Type : toothbrush Train [ Epoch 28/256 iter 1 ] lr: 0.02683, loss: 0.52071, avg_reader_cost: 1.89999 sec, avg_batch_cost: 1.98054 sec, avg_samples: 60.0, avg_ips: 30.29470 images/sec.
+Type : toothbrush Train [ Epoch 29/256 iter 1 ] lr: 0.02660, loss: 0.49364, avg_reader_cost: 1.89962 sec, avg_batch_cost: 1.97994 sec, avg_samples: 60.0, avg_ips: 30.30397 images/sec.
+Type : toothbrush Train [ Epoch 30/256 iter 1 ] lr: 0.02636, loss: 0.51228, avg_reader_cost: 2.11291 sec, avg_batch_cost: 2.19949 sec, avg_samples: 60.0, avg_ips: 27.27904 images/sec.
+Type : toothbrush Train [ Epoch 31/256 iter 1 ] lr: 0.02611, loss: 0.40117, avg_reader_cost: 2.05500 sec, avg_batch_cost: 2.14082 sec, avg_samples: 60.0, avg_ips: 28.02658 images/sec.
+Type : toothbrush Train [ Epoch 32/256 iter 1 ] lr: 0.02586, loss: 0.39867, avg_reader_cost: 2.10864 sec, avg_batch_cost: 2.19380 sec, avg_samples: 60.0, avg_ips: 27.34979 images/sec.
+Type : toothbrush Test [ Epoch 32/256 ] test_cost: 4.167545 sec max_auc: 0.99167 roc_auc : 0.972222.
+Type : toothbrush Train [ Epoch 33/256 iter 1 ] lr: 0.02561, loss: 0.36339, avg_reader_cost: 2.02615 sec, avg_batch_cost: 2.11261 sec, avg_samples: 60.0, avg_ips: 28.40093 images/sec.
+Type : toothbrush Train [ Epoch 34/256 iter 1 ] lr: 0.02534, loss: 0.39137, avg_reader_cost: 1.96407 sec, avg_batch_cost: 2.04939 sec, avg_samples: 60.0, avg_ips: 29.27703 images/sec.
+Type : toothbrush Train [ Epoch 35/256 iter 1 ] lr: 0.02507, loss: 0.42577, avg_reader_cost: 2.04539 sec, avg_batch_cost: 2.13097 sec, avg_samples: 60.0, avg_ips: 28.15619 images/sec.
+Type : toothbrush Train [ Epoch 36/256 iter 1 ] lr: 0.02480, loss: 0.39109, avg_reader_cost: 2.02556 sec, avg_batch_cost: 2.11122 sec, avg_samples: 60.0, avg_ips: 28.41956 images/sec.
+Type : toothbrush Train [ Epoch 37/256 iter 1 ] lr: 0.02452, loss: 0.40923, avg_reader_cost: 1.99751 sec, avg_batch_cost: 2.08358 sec, avg_samples: 60.0, avg_ips: 28.79658 images/sec.
+Type : toothbrush Train [ Epoch 38/256 iter 1 ] lr: 0.02423, loss: 0.40864, avg_reader_cost: 2.02876 sec, avg_batch_cost: 2.11414 sec, avg_samples: 60.0, avg_ips: 28.38031 images/sec.
+Type : toothbrush Train [ Epoch 39/256 iter 1 ] lr: 0.02394, loss: 0.32496, avg_reader_cost: 1.95923 sec, avg_batch_cost: 2.04802 sec, avg_samples: 60.0, avg_ips: 29.29665 images/sec.
+Type : toothbrush Train [ Epoch 40/256 iter 1 ] lr: 0.02364, loss: 0.37706, avg_reader_cost: 2.05305 sec, avg_batch_cost: 2.13797 sec, avg_samples: 60.0, avg_ips: 28.06402 images/sec.
+Type : toothbrush Test [ Epoch 40/256 ] test_cost: 4.606459 sec max_auc: 0.99167 roc_auc : 0.955556.
+Type : toothbrush Train [ Epoch 41/256 iter 1 ] lr: 0.02333, loss: 0.35207, avg_reader_cost: 2.16105 sec, avg_batch_cost: 2.24559 sec, avg_samples: 60.0, avg_ips: 26.71909 images/sec.
+Type : toothbrush Train [ Epoch 42/256 iter 1 ] lr: 0.02302, loss: 0.39064, avg_reader_cost: 2.10935 sec, avg_batch_cost: 2.19420 sec, avg_samples: 60.0, avg_ips: 27.34486 images/sec.
+Type : toothbrush Train [ Epoch 43/256 iter 1 ] lr: 0.02271, loss: 0.33650, avg_reader_cost: 2.17128 sec, avg_batch_cost: 2.26539 sec, avg_samples: 60.0, avg_ips: 26.48549 images/sec.
+Type : toothbrush Train [ Epoch 44/256 iter 1 ] lr: 0.02239, loss: 0.33716, avg_reader_cost: 2.19187 sec, avg_batch_cost: 2.27803 sec, avg_samples: 60.0, avg_ips: 26.33857 images/sec.
+Type : toothbrush Train [ Epoch 45/256 iter 1 ] lr: 0.02207, loss: 0.40701, avg_reader_cost: 2.06304 sec, avg_batch_cost: 2.14704 sec, avg_samples: 60.0, avg_ips: 27.94550 images/sec.
+Type : toothbrush Train [ Epoch 46/256 iter 1 ] lr: 0.02174, loss: 0.34188, avg_reader_cost: 1.99065 sec, avg_batch_cost: 2.07585 sec, avg_samples: 60.0, avg_ips: 28.90386 images/sec.
+Type : toothbrush Train [ Epoch 47/256 iter 1 ] lr: 0.02141, loss: 0.33720, avg_reader_cost: 1.82681 sec, avg_batch_cost: 1.91312 sec, avg_samples: 60.0, avg_ips: 31.36240 images/sec.
+Type : toothbrush Train [ Epoch 48/256 iter 1 ] lr: 0.02108, loss: 0.39856, avg_reader_cost: 2.02901 sec, avg_batch_cost: 2.11446 sec, avg_samples: 60.0, avg_ips: 28.37600 images/sec.
+Type : toothbrush Test [ Epoch 48/256 ] test_cost: 4.164612 sec max_auc: 0.99167 roc_auc : 0.969444.
+Type : toothbrush Train [ Epoch 49/256 iter 1 ] lr: 0.02074, loss: 0.35923, avg_reader_cost: 2.11527 sec, avg_batch_cost: 2.19984 sec, avg_samples: 60.0, avg_ips: 27.27467 images/sec.
+Type : toothbrush Train [ Epoch 50/256 iter 1 ] lr: 0.02040, loss: 0.47297, avg_reader_cost: 2.01685 sec, avg_batch_cost: 2.10459 sec, avg_samples: 60.0, avg_ips: 28.50906 images/sec.
+Type : toothbrush Train [ Epoch 51/256 iter 1 ] lr: 0.02005, loss: 0.42769, avg_reader_cost: 2.08228 sec, avg_batch_cost: 2.16838 sec, avg_samples: 60.0, avg_ips: 27.67048 images/sec.
+Type : toothbrush Train [ Epoch 52/256 iter 1 ] lr: 0.01971, loss: 0.34942, avg_reader_cost: 2.13900 sec, avg_batch_cost: 2.22316 sec, avg_samples: 60.0, avg_ips: 26.98865 images/sec.
+Type : toothbrush Train [ Epoch 53/256 iter 1 ] lr: 0.01935, loss: 0.37144, avg_reader_cost: 2.00409 sec, avg_batch_cost: 2.08912 sec, avg_samples: 60.0, avg_ips: 28.72017 images/sec.
+Type : toothbrush Train [ Epoch 54/256 iter 1 ] lr: 0.01900, loss: 0.37089, avg_reader_cost: 2.12946 sec, avg_batch_cost: 2.21448 sec, avg_samples: 60.0, avg_ips: 27.09434 images/sec.
+Type : toothbrush Train [ Epoch 55/256 iter 1 ] lr: 0.01864, loss: 0.40748, avg_reader_cost: 2.08919 sec, avg_batch_cost: 2.17713 sec, avg_samples: 60.0, avg_ips: 27.55923 images/sec.
+Type : toothbrush Train [ Epoch 56/256 iter 1 ] lr: 0.01829, loss: 0.34145, avg_reader_cost: 2.12044 sec, avg_batch_cost: 2.20540 sec, avg_samples: 60.0, avg_ips: 27.20599 images/sec.
+Type : toothbrush Test [ Epoch 56/256 ] test_cost: 4.216206 sec max_auc: 0.99167 roc_auc : 0.980556.
+Type : toothbrush Train [ Epoch 57/256 iter 1 ] lr: 0.01793, loss: 0.37283, avg_reader_cost: 2.13836 sec, avg_batch_cost: 2.22288 sec, avg_samples: 60.0, avg_ips: 26.99205 images/sec.
+Type : toothbrush Train [ Epoch 58/256 iter 1 ] lr: 0.01756, loss: 0.36379, avg_reader_cost: 1.92978 sec, avg_batch_cost: 2.01480 sec, avg_samples: 60.0, avg_ips: 29.77969 images/sec.
+Type : toothbrush Train [ Epoch 59/256 iter 1 ] lr: 0.01720, loss: 0.39868, avg_reader_cost: 1.98156 sec, avg_batch_cost: 2.06512 sec, avg_samples: 60.0, avg_ips: 29.05398 images/sec.
+Type : toothbrush Train [ Epoch 60/256 iter 1 ] lr: 0.01684, loss: 0.40114, avg_reader_cost: 2.04199 sec, avg_batch_cost: 2.12759 sec, avg_samples: 60.0, avg_ips: 28.20099 images/sec.
+Type : toothbrush Train [ Epoch 61/256 iter 1 ] lr: 0.01647, loss: 0.28667, avg_reader_cost: 1.91454 sec, avg_batch_cost: 1.99930 sec, avg_samples: 60.0, avg_ips: 30.01056 images/sec.
+Type : toothbrush Train [ Epoch 62/256 iter 1 ] lr: 0.01610, loss: 0.33074, avg_reader_cost: 1.93266 sec, avg_batch_cost: 2.01759 sec, avg_samples: 60.0, avg_ips: 29.73851 images/sec.
+Type : toothbrush Train [ Epoch 63/256 iter 1 ] lr: 0.01574, loss: 0.35477, avg_reader_cost: 1.91976 sec, avg_batch_cost: 2.00422 sec, avg_samples: 60.0, avg_ips: 29.93691 images/sec.
+Type : toothbrush Train [ Epoch 64/256 iter 1 ] lr: 0.01537, loss: 0.33333, avg_reader_cost: 1.98650 sec, avg_batch_cost: 2.07031 sec, avg_samples: 60.0, avg_ips: 28.98122 images/sec.
+Type : toothbrush Test [ Epoch 64/256 ] test_cost: 4.366845 sec max_auc: 0.99167 roc_auc : 0.966667.
+Type : toothbrush Train [ Epoch 65/256 iter 1 ] lr: 0.01500, loss: 0.31992, avg_reader_cost: 1.76258 sec, avg_batch_cost: 1.84571 sec, avg_samples: 60.0, avg_ips: 32.50774 images/sec.
+Type : toothbrush Train [ Epoch 66/256 iter 1 ] lr: 0.01463, loss: 0.40516, avg_reader_cost: 1.83814 sec, avg_batch_cost: 1.92007 sec, avg_samples: 60.0, avg_ips: 31.24882 images/sec.
+Type : toothbrush Train [ Epoch 67/256 iter 1 ] lr: 0.01426, loss: 0.40431, avg_reader_cost: 1.82681 sec, avg_batch_cost: 1.91067 sec, avg_samples: 60.0, avg_ips: 31.40266 images/sec.
+Type : toothbrush Train [ Epoch 68/256 iter 1 ] lr: 0.01390, loss: 0.32407, avg_reader_cost: 1.95971 sec, avg_batch_cost: 2.04310 sec, avg_samples: 60.0, avg_ips: 29.36709 images/sec.
+Type : toothbrush Train [ Epoch 69/256 iter 1 ] lr: 0.01353, loss: 0.32917, avg_reader_cost: 2.09781 sec, avg_batch_cost: 2.18223 sec, avg_samples: 60.0, avg_ips: 27.49486 images/sec.
+Type : toothbrush Train [ Epoch 70/256 iter 1 ] lr: 0.01316, loss: 0.32713, avg_reader_cost: 2.04373 sec, avg_batch_cost: 2.12897 sec, avg_samples: 60.0, avg_ips: 28.18271 images/sec.
+Type : toothbrush Train [ Epoch 71/256 iter 1 ] lr: 0.01280, loss: 0.39105, avg_reader_cost: 2.01462 sec, avg_batch_cost: 2.09929 sec, avg_samples: 60.0, avg_ips: 28.58110 images/sec.
+Type : toothbrush Train [ Epoch 72/256 iter 1 ] lr: 0.01244, loss: 0.35472, avg_reader_cost: 2.09156 sec, avg_batch_cost: 2.17704 sec, avg_samples: 60.0, avg_ips: 27.56030 images/sec.
+Type : toothbrush Test [ Epoch 72/256 ] test_cost: 4.183999 sec max_auc: 0.99167 roc_auc : 0.966667.
+Type : toothbrush Train [ Epoch 73/256 iter 1 ] lr: 0.01207, loss: 0.33425, avg_reader_cost: 2.05918 sec, avg_batch_cost: 2.14454 sec, avg_samples: 60.0, avg_ips: 27.97801 images/sec.
+Type : toothbrush Train [ Epoch 74/256 iter 1 ] lr: 0.01171, loss: 0.31613, avg_reader_cost: 1.89109 sec, avg_batch_cost: 1.97279 sec, avg_samples: 60.0, avg_ips: 30.41383 images/sec.
+Type : toothbrush Train [ Epoch 75/256 iter 1 ] lr: 0.01136, loss: 0.30993, avg_reader_cost: 2.04171 sec, avg_batch_cost: 2.12618 sec, avg_samples: 60.0, avg_ips: 28.21968 images/sec.
+Type : toothbrush Train [ Epoch 76/256 iter 1 ] lr: 0.01100, loss: 0.34650, avg_reader_cost: 2.06137 sec, avg_batch_cost: 2.14591 sec, avg_samples: 60.0, avg_ips: 27.96018 images/sec.
+Type : toothbrush Train [ Epoch 77/256 iter 1 ] lr: 0.01065, loss: 0.30539, avg_reader_cost: 1.97352 sec, avg_batch_cost: 2.05885 sec, avg_samples: 60.0, avg_ips: 29.14254 images/sec.
+Type : toothbrush Train [ Epoch 78/256 iter 1 ] lr: 0.01029, loss: 0.33515, avg_reader_cost: 1.97651 sec, avg_batch_cost: 2.06387 sec, avg_samples: 60.0, avg_ips: 29.07163 images/sec.
+Type : toothbrush Train [ Epoch 79/256 iter 1 ] lr: 0.00995, loss: 0.26939, avg_reader_cost: 1.90980 sec, avg_batch_cost: 1.99494 sec, avg_samples: 60.0, avg_ips: 30.07606 images/sec.
+Type : toothbrush Train [ Epoch 80/256 iter 1 ] lr: 0.00960, loss: 0.31486, avg_reader_cost: 1.90710 sec, avg_batch_cost: 1.98981 sec, avg_samples: 60.0, avg_ips: 30.15365 images/sec.
+Type : toothbrush Test [ Epoch 80/256 ] test_cost: 4.099735 sec max_auc: 0.99167 roc_auc : 0.925000.
+Type : toothbrush Train [ Epoch 81/256 iter 1 ] lr: 0.00926, loss: 0.33104, avg_reader_cost: 2.01869 sec, avg_batch_cost: 2.10411 sec, avg_samples: 60.0, avg_ips: 28.51567 images/sec.
+Type : toothbrush Train [ Epoch 82/256 iter 1 ] lr: 0.00892, loss: 0.35421, avg_reader_cost: 1.91899 sec, avg_batch_cost: 2.00267 sec, avg_samples: 60.0, avg_ips: 29.96000 images/sec.
+Type : toothbrush Train [ Epoch 83/256 iter 1 ] lr: 0.00859, loss: 0.31615, avg_reader_cost: 2.09809 sec, avg_batch_cost: 2.18238 sec, avg_samples: 60.0, avg_ips: 27.49296 images/sec.
+Type : toothbrush Train [ Epoch 84/256 iter 1 ] lr: 0.00826, loss: 0.31375, avg_reader_cost: 1.83524 sec, avg_batch_cost: 1.91690 sec, avg_samples: 60.0, avg_ips: 31.30049 images/sec.
+Type : toothbrush Train [ Epoch 85/256 iter 1 ] lr: 0.00793, loss: 0.37200, avg_reader_cost: 1.50321 sec, avg_batch_cost: 1.58360 sec, avg_samples: 60.0, avg_ips: 37.88828 images/sec.
+Type : toothbrush Train [ Epoch 86/256 iter 1 ] lr: 0.00761, loss: 0.28274, avg_reader_cost: 1.88879 sec, avg_batch_cost: 1.97236 sec, avg_samples: 60.0, avg_ips: 30.42036 images/sec.
+Type : toothbrush Train [ Epoch 87/256 iter 1 ] lr: 0.00729, loss: 0.29075, avg_reader_cost: 1.89878 sec, avg_batch_cost: 1.98175 sec, avg_samples: 60.0, avg_ips: 30.27633 images/sec.
+Type : toothbrush Train [ Epoch 88/256 iter 1 ] lr: 0.00698, loss: 0.37289, avg_reader_cost: 1.86781 sec, avg_batch_cost: 1.95014 sec, avg_samples: 60.0, avg_ips: 30.76707 images/sec.
+Type : toothbrush Test [ Epoch 88/256 ] test_cost: 4.429404 sec max_auc: 0.99167 roc_auc : 0.972222.
+Type : toothbrush Train [ Epoch 89/256 iter 1 ] lr: 0.00667, loss: 0.33078, avg_reader_cost: 1.89813 sec, avg_batch_cost: 1.98348 sec, avg_samples: 60.0, avg_ips: 30.24992 images/sec.
+Type : toothbrush Train [ Epoch 90/256 iter 1 ] lr: 0.00636, loss: 0.30387, avg_reader_cost: 1.82055 sec, avg_batch_cost: 1.90547 sec, avg_samples: 60.0, avg_ips: 31.48834 images/sec.
+Type : toothbrush Train [ Epoch 91/256 iter 1 ] lr: 0.00606, loss: 0.33173, avg_reader_cost: 2.08626 sec, avg_batch_cost: 2.17085 sec, avg_samples: 60.0, avg_ips: 27.63894 images/sec.
+Type : toothbrush Train [ Epoch 92/256 iter 1 ] lr: 0.00577, loss: 0.32988, avg_reader_cost: 2.03285 sec, avg_batch_cost: 2.11746 sec, avg_samples: 60.0, avg_ips: 28.33587 images/sec.
+Type : toothbrush Train [ Epoch 93/256 iter 1 ] lr: 0.00548, loss: 0.33544, avg_reader_cost: 1.87020 sec, avg_batch_cost: 1.94972 sec, avg_samples: 60.0, avg_ips: 30.77359 images/sec.
+Type : toothbrush Train [ Epoch 94/256 iter 1 ] lr: 0.00520, loss: 0.38259, avg_reader_cost: 1.90096 sec, avg_batch_cost: 1.98216 sec, avg_samples: 60.0, avg_ips: 30.26998 images/sec.
+Type : toothbrush Train [ Epoch 95/256 iter 1 ] lr: 0.00493, loss: 0.36878, avg_reader_cost: 1.86034 sec, avg_batch_cost: 1.94136 sec, avg_samples: 60.0, avg_ips: 30.90614 images/sec.
+Type : toothbrush Train [ Epoch 96/256 iter 1 ] lr: 0.00466, loss: 0.27615, avg_reader_cost: 1.90613 sec, avg_batch_cost: 1.98865 sec, avg_samples: 60.0, avg_ips: 30.17119 images/sec.
+Type : toothbrush Test [ Epoch 96/256 ] test_cost: 4.529917 sec max_auc: 0.99167 roc_auc : 0.983333.
+Type : toothbrush Train [ Epoch 97/256 iter 1 ] lr: 0.00439, loss: 0.30134, avg_reader_cost: 1.84747 sec, avg_batch_cost: 1.92437 sec, avg_samples: 60.0, avg_ips: 31.17903 images/sec.
+Type : toothbrush Train [ Epoch 98/256 iter 1 ] lr: 0.00414, loss: 0.28134, avg_reader_cost: 1.77376 sec, avg_batch_cost: 1.85466 sec, avg_samples: 60.0, avg_ips: 32.35096 images/sec.
+Type : toothbrush Train [ Epoch 99/256 iter 1 ] lr: 0.00389, loss: 0.28914, avg_reader_cost: 1.91254 sec, avg_batch_cost: 1.99542 sec, avg_samples: 60.0, avg_ips: 30.06889 images/sec.
+Type : toothbrush Train [ Epoch 100/256 iter 1 ] lr: 0.00364, loss: 0.29104, avg_reader_cost: 1.92203 sec, avg_batch_cost: 2.00617 sec, avg_samples: 60.0, avg_ips: 29.90776 images/sec.
+Type : toothbrush Train [ Epoch 101/256 iter 1 ] lr: 0.00340, loss: 0.25546, avg_reader_cost: 2.01427 sec, avg_batch_cost: 2.09906 sec, avg_samples: 60.0, avg_ips: 28.58425 images/sec.
+Type : toothbrush Train [ Epoch 102/256 iter 1 ] lr: 0.00317, loss: 0.27908, avg_reader_cost: 2.03701 sec, avg_batch_cost: 2.12029 sec, avg_samples: 60.0, avg_ips: 28.29805 images/sec.
+Type : toothbrush Train [ Epoch 103/256 iter 1 ] lr: 0.00295, loss: 0.26322, avg_reader_cost: 1.82751 sec, avg_batch_cost: 1.91121 sec, avg_samples: 60.0, avg_ips: 31.39366 images/sec.
+Type : toothbrush Train [ Epoch 104/256 iter 1 ] lr: 0.00274, loss: 0.26453, avg_reader_cost: 1.75996 sec, avg_batch_cost: 1.84113 sec, avg_samples: 60.0, avg_ips: 32.58865 images/sec.
+Type : toothbrush Test [ Epoch 104/256 ] test_cost: 4.368746 sec max_auc: 0.99167 roc_auc : 0.988889.
+Type : toothbrush Train [ Epoch 105/256 iter 1 ] lr: 0.00253, loss: 0.26468, avg_reader_cost: 1.84900 sec, avg_batch_cost: 1.93309 sec, avg_samples: 60.0, avg_ips: 31.03845 images/sec.
+Type : toothbrush Train [ Epoch 106/256 iter 1 ] lr: 0.00233, loss: 0.26941, avg_reader_cost: 1.77813 sec, avg_batch_cost: 1.85897 sec, avg_samples: 60.0, avg_ips: 32.27588 images/sec.
+Type : toothbrush Train [ Epoch 107/256 iter 1 ] lr: 0.00213, loss: 0.25643, avg_reader_cost: 1.79340 sec, avg_batch_cost: 1.87459 sec, avg_samples: 60.0, avg_ips: 32.00707 images/sec.
+Type : toothbrush Train [ Epoch 108/256 iter 1 ] lr: 0.00195, loss: 0.24467, avg_reader_cost: 1.86471 sec, avg_batch_cost: 1.94862 sec, avg_samples: 60.0, avg_ips: 30.79107 images/sec.
+Type : toothbrush Train [ Epoch 109/256 iter 1 ] lr: 0.00177, loss: 0.24229, avg_reader_cost: 1.85215 sec, avg_batch_cost: 1.93583 sec, avg_samples: 60.0, avg_ips: 30.99450 images/sec.
+Type : toothbrush Train [ Epoch 110/256 iter 1 ] lr: 0.00160, loss: 0.27500, avg_reader_cost: 1.80990 sec, avg_batch_cost: 1.89107 sec, avg_samples: 60.0, avg_ips: 31.72812 images/sec.
+Type : toothbrush Train [ Epoch 111/256 iter 1 ] lr: 0.00144, loss: 0.29900, avg_reader_cost: 1.90683 sec, avg_batch_cost: 1.98673 sec, avg_samples: 60.0, avg_ips: 30.20037 images/sec.
+Type : toothbrush Train [ Epoch 112/256 iter 1 ] lr: 0.00129, loss: 0.23047, avg_reader_cost: 1.98675 sec, avg_batch_cost: 2.06954 sec, avg_samples: 60.0, avg_ips: 28.99190 images/sec.
+Type : toothbrush Test [ Epoch 112/256 ] test_cost: 4.891737 sec max_auc: 0.99167 roc_auc : 0.980556.
+Type : toothbrush Train [ Epoch 113/256 iter 1 ] lr: 0.00114, loss: 0.26740, avg_reader_cost: 1.92874 sec, avg_batch_cost: 2.01180 sec, avg_samples: 60.0, avg_ips: 29.82406 images/sec.
+Type : toothbrush Train [ Epoch 114/256 iter 1 ] lr: 0.00101, loss: 0.26644, avg_reader_cost: 1.83967 sec, avg_batch_cost: 1.92085 sec, avg_samples: 60.0, avg_ips: 31.23624 images/sec.
+Type : toothbrush Train [ Epoch 115/256 iter 1 ] lr: 0.00088, loss: 0.26065, avg_reader_cost: 1.85512 sec, avg_batch_cost: 1.93628 sec, avg_samples: 60.0, avg_ips: 30.98733 images/sec.
+Type : toothbrush Train [ Epoch 116/256 iter 1 ] lr: 0.00076, loss: 0.21859, avg_reader_cost: 1.78652 sec, avg_batch_cost: 1.86680 sec, avg_samples: 60.0, avg_ips: 32.14062 images/sec.
+Type : toothbrush Train [ Epoch 117/256 iter 1 ] lr: 0.00065, loss: 0.29211, avg_reader_cost: 1.90166 sec, avg_batch_cost: 1.98624 sec, avg_samples: 60.0, avg_ips: 30.20788 images/sec.
+Type : toothbrush Train [ Epoch 118/256 iter 1 ] lr: 0.00054, loss: 0.20722, avg_reader_cost: 1.82833 sec, avg_batch_cost: 1.91002 sec, avg_samples: 60.0, avg_ips: 31.41322 images/sec.
+Type : toothbrush Train [ Epoch 119/256 iter 1 ] lr: 0.00045, loss: 0.27446, avg_reader_cost: 1.79491 sec, avg_batch_cost: 1.87524 sec, avg_samples: 60.0, avg_ips: 31.99591 images/sec.
+Type : toothbrush Train [ Epoch 120/256 iter 1 ] lr: 0.00036, loss: 0.31784, avg_reader_cost: 1.79927 sec, avg_batch_cost: 1.88150 sec, avg_samples: 60.0, avg_ips: 31.88949 images/sec.
+Type : toothbrush Test [ Epoch 120/256 ] test_cost: 4.998693 sec max_auc: 0.99167 roc_auc : 0.975000.
+Type : toothbrush Train [ Epoch 121/256 iter 1 ] lr: 0.00029, loss: 0.30277, avg_reader_cost: 1.81542 sec, avg_batch_cost: 1.89799 sec, avg_samples: 60.0, avg_ips: 31.61235 images/sec.
+Type : toothbrush Train [ Epoch 122/256 iter 1 ] lr: 0.00022, loss: 0.20226, avg_reader_cost: 1.80214 sec, avg_batch_cost: 1.88196 sec, avg_samples: 60.0, avg_ips: 31.88167 images/sec.
+Type : toothbrush Train [ Epoch 123/256 iter 1 ] lr: 0.00016, loss: 0.22294, avg_reader_cost: 1.85392 sec, avg_batch_cost: 1.93632 sec, avg_samples: 60.0, avg_ips: 30.98664 images/sec.
+Type : toothbrush Train [ Epoch 124/256 iter 1 ] lr: 0.00011, loss: 0.30548, avg_reader_cost: 1.92370 sec, avg_batch_cost: 2.00625 sec, avg_samples: 60.0, avg_ips: 29.90659 images/sec.
+Type : toothbrush Train [ Epoch 125/256 iter 1 ] lr: 0.00007, loss: 0.23282, avg_reader_cost: 1.83204 sec, avg_batch_cost: 1.91472 sec, avg_samples: 60.0, avg_ips: 31.33624 images/sec.
+Type : toothbrush Train [ Epoch 126/256 iter 1 ] lr: 0.00004, loss: 0.19820, avg_reader_cost: 1.79182 sec, avg_batch_cost: 1.87416 sec, avg_samples: 60.0, avg_ips: 32.01427 images/sec.
+Type : toothbrush Train [ Epoch 127/256 iter 1 ] lr: 0.00002, loss: 0.32431, avg_reader_cost: 1.41358 sec, avg_batch_cost: 1.49328 sec, avg_samples: 60.0, avg_ips: 40.18001 images/sec.
+Type : toothbrush Train [ Epoch 128/256 iter 1 ] lr: 0.00000, loss: 0.24460, avg_reader_cost: 1.76839 sec, avg_batch_cost: 1.84788 sec, avg_samples: 60.0, avg_ips: 32.46961 images/sec.
+Type : toothbrush Test [ Epoch 128/256 ] test_cost: 4.257288 sec max_auc: 0.99167 roc_auc : 0.972222.
+Type : toothbrush Train [ Epoch 129/256 iter 1 ] lr: 0.00000, loss: 0.30802, avg_reader_cost: 1.86905 sec, avg_batch_cost: 1.96113 sec, avg_samples: 60.0, avg_ips: 30.59454 images/sec.
+Type : toothbrush Train [ Epoch 130/256 iter 1 ] lr: 0.00000, loss: 0.26054, avg_reader_cost: 1.98758 sec, avg_batch_cost: 2.06958 sec, avg_samples: 60.0, avg_ips: 28.99136 images/sec.
+Type : toothbrush Train [ Epoch 131/256 iter 1 ] lr: 0.00002, loss: 0.30821, avg_reader_cost: 1.88461 sec, avg_batch_cost: 1.96579 sec, avg_samples: 60.0, avg_ips: 30.52208 images/sec.
+Type : toothbrush Train [ Epoch 132/256 iter 1 ] lr: 0.00004, loss: 0.33399, avg_reader_cost: 1.80438 sec, avg_batch_cost: 1.88740 sec, avg_samples: 60.0, avg_ips: 31.78973 images/sec.
+Type : toothbrush Train [ Epoch 133/256 iter 1 ] lr: 0.00007, loss: 0.32857, avg_reader_cost: 1.75683 sec, avg_batch_cost: 1.83622 sec, avg_samples: 60.0, avg_ips: 32.67575 images/sec.
+Type : toothbrush Train [ Epoch 134/256 iter 1 ] lr: 0.00011, loss: 0.27522, avg_reader_cost: 1.83349 sec, avg_batch_cost: 1.91966 sec, avg_samples: 60.0, avg_ips: 31.25556 images/sec.
+Type : toothbrush Train [ Epoch 135/256 iter 1 ] lr: 0.00016, loss: 0.31760, avg_reader_cost: 2.04874 sec, avg_batch_cost: 2.13352 sec, avg_samples: 60.0, avg_ips: 28.12253 images/sec.
+Type : toothbrush Train [ Epoch 136/256 iter 1 ] lr: 0.00022, loss: 0.32103, avg_reader_cost: 2.00425 sec, avg_batch_cost: 2.08829 sec, avg_samples: 60.0, avg_ips: 28.73159 images/sec.
+Type : toothbrush Test [ Epoch 136/256 ] test_cost: 4.191245 sec max_auc: 0.99167 roc_auc : 0.975000.
+Type : toothbrush Train [ Epoch 137/256 iter 1 ] lr: 0.00029, loss: 0.27473, avg_reader_cost: 1.95918 sec, avg_batch_cost: 2.04277 sec, avg_samples: 60.0, avg_ips: 29.37193 images/sec.
+Type : toothbrush Train [ Epoch 138/256 iter 1 ] lr: 0.00036, loss: 0.27477, avg_reader_cost: 1.97223 sec, avg_batch_cost: 2.05655 sec, avg_samples: 60.0, avg_ips: 29.17506 images/sec.
+Type : toothbrush Train [ Epoch 139/256 iter 1 ] lr: 0.00045, loss: 0.24855, avg_reader_cost: 2.12831 sec, avg_batch_cost: 2.21321 sec, avg_samples: 60.0, avg_ips: 27.10994 images/sec.
+Type : toothbrush Train [ Epoch 140/256 iter 1 ] lr: 0.00054, loss: 0.24352, avg_reader_cost: 2.08816 sec, avg_batch_cost: 2.17250 sec, avg_samples: 60.0, avg_ips: 27.61797 images/sec.
+Type : toothbrush Train [ Epoch 141/256 iter 1 ] lr: 0.00065, loss: 0.26033, avg_reader_cost: 1.93964 sec, avg_batch_cost: 2.02348 sec, avg_samples: 60.0, avg_ips: 29.65192 images/sec.
+Type : toothbrush Train [ Epoch 142/256 iter 1 ] lr: 0.00076, loss: 0.27338, avg_reader_cost: 2.01789 sec, avg_batch_cost: 2.10236 sec, avg_samples: 60.0, avg_ips: 28.53929 images/sec.
+Type : toothbrush Train [ Epoch 143/256 iter 1 ] lr: 0.00088, loss: 0.28728, avg_reader_cost: 2.05187 sec, avg_batch_cost: 2.13623 sec, avg_samples: 60.0, avg_ips: 28.08688 images/sec.
+Type : toothbrush Train [ Epoch 144/256 iter 1 ] lr: 0.00101, loss: 0.28403, avg_reader_cost: 2.11457 sec, avg_batch_cost: 2.19787 sec, avg_samples: 60.0, avg_ips: 27.29919 images/sec.
+Type : toothbrush Test [ Epoch 144/256 ] test_cost: 4.894569 sec max_auc: 0.99167 roc_auc : 0.972222.
+Type : toothbrush Train [ Epoch 145/256 iter 1 ] lr: 0.00114, loss: 0.22650, avg_reader_cost: 1.98732 sec, avg_batch_cost: 2.07182 sec, avg_samples: 60.0, avg_ips: 28.96010 images/sec.
+Type : toothbrush Train [ Epoch 146/256 iter 1 ] lr: 0.00129, loss: 0.28613, avg_reader_cost: 1.97683 sec, avg_batch_cost: 2.05371 sec, avg_samples: 60.0, avg_ips: 29.21547 images/sec.
+Type : toothbrush Train [ Epoch 147/256 iter 1 ] lr: 0.00144, loss: 0.32157, avg_reader_cost: 1.90524 sec, avg_batch_cost: 1.98893 sec, avg_samples: 60.0, avg_ips: 30.16703 images/sec.
+Type : toothbrush Train [ Epoch 148/256 iter 1 ] lr: 0.00160, loss: 0.26554, avg_reader_cost: 1.96679 sec, avg_batch_cost: 2.05100 sec, avg_samples: 60.0, avg_ips: 29.25400 images/sec.
+Type : toothbrush Train [ Epoch 149/256 iter 1 ] lr: 0.00177, loss: 0.25580, avg_reader_cost: 1.92303 sec, avg_batch_cost: 2.00677 sec, avg_samples: 60.0, avg_ips: 29.89883 images/sec.
+Type : toothbrush Train [ Epoch 150/256 iter 1 ] lr: 0.00195, loss: 0.27974, avg_reader_cost: 2.08560 sec, avg_batch_cost: 2.16982 sec, avg_samples: 60.0, avg_ips: 27.65203 images/sec.
+Type : toothbrush Train [ Epoch 151/256 iter 1 ] lr: 0.00213, loss: 0.30056, avg_reader_cost: 1.97559 sec, avg_batch_cost: 2.06033 sec, avg_samples: 60.0, avg_ips: 29.12158 images/sec.
+Type : toothbrush Train [ Epoch 152/256 iter 1 ] lr: 0.00233, loss: 0.22747, avg_reader_cost: 1.91998 sec, avg_batch_cost: 2.00421 sec, avg_samples: 60.0, avg_ips: 29.93703 images/sec.
+Type : toothbrush Test [ Epoch 152/256 ] test_cost: 4.566642 sec max_auc: 0.99167 roc_auc : 0.966667.
+Type : toothbrush Train [ Epoch 153/256 iter 1 ] lr: 0.00253, loss: 0.28087, avg_reader_cost: 2.04066 sec, avg_batch_cost: 2.12454 sec, avg_samples: 60.0, avg_ips: 28.24135 images/sec.
+Type : toothbrush Train [ Epoch 154/256 iter 1 ] lr: 0.00274, loss: 0.26464, avg_reader_cost: 2.09931 sec, avg_batch_cost: 2.18429 sec, avg_samples: 60.0, avg_ips: 27.46884 images/sec.
+Type : toothbrush Train [ Epoch 155/256 iter 1 ] lr: 0.00295, loss: 0.28379, avg_reader_cost: 2.08095 sec, avg_batch_cost: 2.16622 sec, avg_samples: 60.0, avg_ips: 27.69808 images/sec.
+Type : toothbrush Train [ Epoch 156/256 iter 1 ] lr: 0.00317, loss: 0.27624, avg_reader_cost: 1.95677 sec, avg_batch_cost: 2.04170 sec, avg_samples: 60.0, avg_ips: 29.38723 images/sec.
+Type : toothbrush Train [ Epoch 157/256 iter 1 ] lr: 0.00340, loss: 0.27340, avg_reader_cost: 1.95764 sec, avg_batch_cost: 2.04187 sec, avg_samples: 60.0, avg_ips: 29.38488 images/sec.
+Type : toothbrush Train [ Epoch 158/256 iter 1 ] lr: 0.00364, loss: 0.29197, avg_reader_cost: 2.09335 sec, avg_batch_cost: 2.17830 sec, avg_samples: 60.0, avg_ips: 27.54442 images/sec.
+Type : toothbrush Train [ Epoch 159/256 iter 1 ] lr: 0.00389, loss: 0.25960, avg_reader_cost: 2.00867 sec, avg_batch_cost: 2.09268 sec, avg_samples: 60.0, avg_ips: 28.67134 images/sec.
+Type : toothbrush Train [ Epoch 160/256 iter 1 ] lr: 0.00414, loss: 0.27494, avg_reader_cost: 1.97424 sec, avg_batch_cost: 2.06001 sec, avg_samples: 60.0, avg_ips: 29.12600 images/sec.
+Type : toothbrush Test [ Epoch 160/256 ] test_cost: 4.589660 sec max_auc: 0.99167 roc_auc : 0.983333.
+Type : toothbrush Train [ Epoch 161/256 iter 1 ] lr: 0.00439, loss: 0.25452, avg_reader_cost: 1.91750 sec, avg_batch_cost: 2.00410 sec, avg_samples: 60.0, avg_ips: 29.93867 images/sec.
+Type : toothbrush Train [ Epoch 162/256 iter 1 ] lr: 0.00466, loss: 0.24628, avg_reader_cost: 2.00665 sec, avg_batch_cost: 2.08935 sec, avg_samples: 60.0, avg_ips: 28.71712 images/sec.
+Type : toothbrush Train [ Epoch 163/256 iter 1 ] lr: 0.00493, loss: 0.23820, avg_reader_cost: 1.77509 sec, avg_batch_cost: 1.85551 sec, avg_samples: 60.0, avg_ips: 32.33612 images/sec.
+Type : toothbrush Train [ Epoch 164/256 iter 1 ] lr: 0.00520, loss: 0.30767, avg_reader_cost: 1.84667 sec, avg_batch_cost: 1.92845 sec, avg_samples: 60.0, avg_ips: 31.11300 images/sec.
+Type : toothbrush Train [ Epoch 165/256 iter 1 ] lr: 0.00548, loss: 0.25456, avg_reader_cost: 2.09398 sec, avg_batch_cost: 2.17871 sec, avg_samples: 60.0, avg_ips: 27.53929 images/sec.
+Type : toothbrush Train [ Epoch 166/256 iter 1 ] lr: 0.00577, loss: 0.29754, avg_reader_cost: 2.03418 sec, avg_batch_cost: 2.11763 sec, avg_samples: 60.0, avg_ips: 28.33362 images/sec.
+Type : toothbrush Train [ Epoch 167/256 iter 1 ] lr: 0.00606, loss: 0.24784, avg_reader_cost: 2.07310 sec, avg_batch_cost: 2.15752 sec, avg_samples: 60.0, avg_ips: 27.80972 images/sec.
+Type : toothbrush Train [ Epoch 168/256 iter 1 ] lr: 0.00636, loss: 0.20723, avg_reader_cost: 1.94277 sec, avg_batch_cost: 2.02956 sec, avg_samples: 60.0, avg_ips: 29.56303 images/sec.
+Type : toothbrush Test [ Epoch 168/256 ] test_cost: 4.998731 sec max_auc: 0.99167 roc_auc : 0.977778.
+Type : toothbrush Train [ Epoch 169/256 iter 1 ] lr: 0.00667, loss: 0.24996, avg_reader_cost: 1.99313 sec, avg_batch_cost: 2.07741 sec, avg_samples: 60.0, avg_ips: 28.88218 images/sec.
+Type : toothbrush Train [ Epoch 170/256 iter 1 ] lr: 0.00698, loss: 0.25485, avg_reader_cost: 1.93068 sec, avg_batch_cost: 2.01624 sec, avg_samples: 60.0, avg_ips: 29.75840 images/sec.
+Type : toothbrush Train [ Epoch 171/256 iter 1 ] lr: 0.00729, loss: 0.37426, avg_reader_cost: 1.94633 sec, avg_batch_cost: 2.03024 sec, avg_samples: 60.0, avg_ips: 29.55311 images/sec.
+Type : toothbrush Train [ Epoch 172/256 iter 1 ] lr: 0.00761, loss: 0.20168, avg_reader_cost: 1.95087 sec, avg_batch_cost: 2.03675 sec, avg_samples: 60.0, avg_ips: 29.45871 images/sec.
+Type : toothbrush Train [ Epoch 173/256 iter 1 ] lr: 0.00793, loss: 0.25291, avg_reader_cost: 2.07182 sec, avg_batch_cost: 2.15672 sec, avg_samples: 60.0, avg_ips: 27.81998 images/sec.
+Type : toothbrush Train [ Epoch 174/256 iter 1 ] lr: 0.00826, loss: 0.24439, avg_reader_cost: 1.99654 sec, avg_batch_cost: 2.08069 sec, avg_samples: 60.0, avg_ips: 28.83666 images/sec.
+Type : toothbrush Train [ Epoch 175/256 iter 1 ] lr: 0.00859, loss: 0.26818, avg_reader_cost: 1.95997 sec, avg_batch_cost: 2.04455 sec, avg_samples: 60.0, avg_ips: 29.34638 images/sec.
+Type : toothbrush Train [ Epoch 176/256 iter 1 ] lr: 0.00892, loss: 0.35833, avg_reader_cost: 1.93027 sec, avg_batch_cost: 2.01541 sec, avg_samples: 60.0, avg_ips: 29.77063 images/sec.
+Type : toothbrush Test [ Epoch 176/256 ] test_cost: 4.995301 sec max_auc: 0.99167 roc_auc : 0.991667.
+Type : toothbrush Train [ Epoch 177/256 iter 1 ] lr: 0.00926, loss: 0.27206, avg_reader_cost: 1.95331 sec, avg_batch_cost: 2.03677 sec, avg_samples: 60.0, avg_ips: 29.45840 images/sec.
+Type : toothbrush Train [ Epoch 178/256 iter 1 ] lr: 0.00960, loss: 0.24224, avg_reader_cost: 1.83954 sec, avg_batch_cost: 1.92009 sec, avg_samples: 60.0, avg_ips: 31.24860 images/sec.
+Type : toothbrush Train [ Epoch 179/256 iter 1 ] lr: 0.00995, loss: 0.21578, avg_reader_cost: 1.89465 sec, avg_batch_cost: 1.97911 sec, avg_samples: 60.0, avg_ips: 30.31661 images/sec.
+Type : toothbrush Train [ Epoch 180/256 iter 1 ] lr: 0.01029, loss: 0.22202, avg_reader_cost: 1.82604 sec, avg_batch_cost: 1.90975 sec, avg_samples: 60.0, avg_ips: 31.41780 images/sec.
+Type : toothbrush Train [ Epoch 181/256 iter 1 ] lr: 0.01065, loss: 0.21209, avg_reader_cost: 1.93789 sec, avg_batch_cost: 2.02125 sec, avg_samples: 60.0, avg_ips: 29.68466 images/sec.
+Type : toothbrush Train [ Epoch 182/256 iter 1 ] lr: 0.01100, loss: 0.23232, avg_reader_cost: 1.86669 sec, avg_batch_cost: 1.94843 sec, avg_samples: 60.0, avg_ips: 30.79397 images/sec.
+Type : toothbrush Train [ Epoch 183/256 iter 1 ] lr: 0.01136, loss: 0.20663, avg_reader_cost: 1.76953 sec, avg_batch_cost: 1.85093 sec, avg_samples: 60.0, avg_ips: 32.41616 images/sec.
+Type : toothbrush Train [ Epoch 184/256 iter 1 ] lr: 0.01171, loss: 0.26397, avg_reader_cost: 1.76979 sec, avg_batch_cost: 1.84999 sec, avg_samples: 60.0, avg_ips: 32.43266 images/sec.
+Type : toothbrush Test [ Epoch 184/256 ] test_cost: 4.183667 sec max_auc: 0.99167 roc_auc : 0.980556.
+Type : toothbrush Train [ Epoch 185/256 iter 1 ] lr: 0.01207, loss: 0.27329, avg_reader_cost: 2.07806 sec, avg_batch_cost: 2.16220 sec, avg_samples: 60.0, avg_ips: 27.74949 images/sec.
+Type : toothbrush Train [ Epoch 186/256 iter 1 ] lr: 0.01244, loss: 0.17279, avg_reader_cost: 1.94851 sec, avg_batch_cost: 2.03318 sec, avg_samples: 60.0, avg_ips: 29.51048 images/sec.
+Type : toothbrush Train [ Epoch 187/256 iter 1 ] lr: 0.01280, loss: 0.22857, avg_reader_cost: 1.97523 sec, avg_batch_cost: 2.05952 sec, avg_samples: 60.0, avg_ips: 29.13297 images/sec.
+Type : toothbrush Train [ Epoch 188/256 iter 1 ] lr: 0.01316, loss: 0.21594, avg_reader_cost: 2.06548 sec, avg_batch_cost: 2.15081 sec, avg_samples: 60.0, avg_ips: 27.89651 images/sec.
+Type : toothbrush Train [ Epoch 189/256 iter 1 ] lr: 0.01353, loss: 0.18707, avg_reader_cost: 2.01825 sec, avg_batch_cost: 2.10319 sec, avg_samples: 60.0, avg_ips: 28.52812 images/sec.
+Type : toothbrush Train [ Epoch 190/256 iter 1 ] lr: 0.01390, loss: 0.33290, avg_reader_cost: 1.77173 sec, avg_batch_cost: 1.85517 sec, avg_samples: 60.0, avg_ips: 32.34197 images/sec.
+Type : toothbrush Train [ Epoch 191/256 iter 1 ] lr: 0.01426, loss: 0.31270, avg_reader_cost: 1.85198 sec, avg_batch_cost: 1.93277 sec, avg_samples: 60.0, avg_ips: 31.04347 images/sec.
+Type : toothbrush Train [ Epoch 192/256 iter 1 ] lr: 0.01463, loss: 0.31704, avg_reader_cost: 1.77715 sec, avg_batch_cost: 1.85654 sec, avg_samples: 60.0, avg_ips: 32.31813 images/sec.
+Type : toothbrush Test [ Epoch 192/256 ] test_cost: 4.892184 sec max_auc: 0.99167 roc_auc : 0.977778.
+Type : toothbrush Train [ Epoch 193/256 iter 1 ] lr: 0.01500, loss: 0.25645, avg_reader_cost: 1.84329 sec, avg_batch_cost: 1.92659 sec, avg_samples: 60.0, avg_ips: 31.14312 images/sec.
+Type : toothbrush Train [ Epoch 194/256 iter 1 ] lr: 0.01537, loss: 0.26923, avg_reader_cost: 1.81362 sec, avg_batch_cost: 1.89458 sec, avg_samples: 60.0, avg_ips: 31.66929 images/sec.
+Type : toothbrush Train [ Epoch 195/256 iter 1 ] lr: 0.01574, loss: 0.28231, avg_reader_cost: 1.91155 sec, avg_batch_cost: 1.99462 sec, avg_samples: 60.0, avg_ips: 30.08094 images/sec.
+Type : toothbrush Train [ Epoch 196/256 iter 1 ] lr: 0.01610, loss: 0.25149, avg_reader_cost: 2.03712 sec, avg_batch_cost: 2.12141 sec, avg_samples: 60.0, avg_ips: 28.28309 images/sec.
+Type : toothbrush Train [ Epoch 197/256 iter 1 ] lr: 0.01647, loss: 0.34462, avg_reader_cost: 1.94824 sec, avg_batch_cost: 2.03296 sec, avg_samples: 60.0, avg_ips: 29.51359 images/sec.
+Type : toothbrush Train [ Epoch 198/256 iter 1 ] lr: 0.01684, loss: 0.25150, avg_reader_cost: 1.95742 sec, avg_batch_cost: 2.04209 sec, avg_samples: 60.0, avg_ips: 29.38164 images/sec.
+Type : toothbrush Train [ Epoch 199/256 iter 1 ] lr: 0.01720, loss: 0.28847, avg_reader_cost: 1.90133 sec, avg_batch_cost: 1.98313 sec, avg_samples: 60.0, avg_ips: 30.25521 images/sec.
+Type : toothbrush Train [ Epoch 200/256 iter 1 ] lr: 0.01756, loss: 0.20547, avg_reader_cost: 2.00036 sec, avg_batch_cost: 2.09510 sec, avg_samples: 60.0, avg_ips: 28.63827 images/sec.
+Type : toothbrush Test [ Epoch 200/256 ] test_cost: 4.564863 sec max_auc: 0.99167 roc_auc : 0.963889.
+Type : toothbrush Train [ Epoch 201/256 iter 1 ] lr: 0.01793, loss: 0.18400, avg_reader_cost: 2.09926 sec, avg_batch_cost: 2.18369 sec, avg_samples: 60.0, avg_ips: 27.47640 images/sec.
+Type : toothbrush Train [ Epoch 202/256 iter 1 ] lr: 0.01829, loss: 0.22516, avg_reader_cost: 2.04650 sec, avg_batch_cost: 2.13156 sec, avg_samples: 60.0, avg_ips: 28.14842 images/sec.
+Type : toothbrush Train [ Epoch 203/256 iter 1 ] lr: 0.01864, loss: 0.20795, avg_reader_cost: 1.94103 sec, avg_batch_cost: 2.02521 sec, avg_samples: 60.0, avg_ips: 29.62651 images/sec.
+Type : toothbrush Train [ Epoch 204/256 iter 1 ] lr: 0.01900, loss: 0.17709, avg_reader_cost: 2.03995 sec, avg_batch_cost: 2.13275 sec, avg_samples: 60.0, avg_ips: 28.13265 images/sec.
+Type : toothbrush Train [ Epoch 205/256 iter 1 ] lr: 0.01935, loss: 0.25065, avg_reader_cost: 2.04176 sec, avg_batch_cost: 2.12988 sec, avg_samples: 60.0, avg_ips: 28.17055 images/sec.
+Type : toothbrush Train [ Epoch 206/256 iter 1 ] lr: 0.01971, loss: 0.19981, avg_reader_cost: 2.07220 sec, avg_batch_cost: 2.15723 sec, avg_samples: 60.0, avg_ips: 27.81346 images/sec.
+Type : toothbrush Train [ Epoch 207/256 iter 1 ] lr: 0.02005, loss: 0.22048, avg_reader_cost: 1.84343 sec, avg_batch_cost: 1.92486 sec, avg_samples: 60.0, avg_ips: 31.17111 images/sec.
+Type : toothbrush Train [ Epoch 208/256 iter 1 ] lr: 0.02040, loss: 0.19319, avg_reader_cost: 1.88788 sec, avg_batch_cost: 1.97068 sec, avg_samples: 60.0, avg_ips: 30.44636 images/sec.
+Type : toothbrush Test [ Epoch 208/256 ] test_cost: 4.507680 sec max_auc: 0.99167 roc_auc : 0.986111.
+Type : toothbrush Train [ Epoch 209/256 iter 1 ] lr: 0.02074, loss: 0.21949, avg_reader_cost: 1.93789 sec, avg_batch_cost: 2.02191 sec, avg_samples: 60.0, avg_ips: 29.67487 images/sec.
+Type : toothbrush Train [ Epoch 210/256 iter 1 ] lr: 0.02108, loss: 0.25904, avg_reader_cost: 1.86720 sec, avg_batch_cost: 1.94756 sec, avg_samples: 60.0, avg_ips: 30.80777 images/sec.
+Type : toothbrush Train [ Epoch 211/256 iter 1 ] lr: 0.02141, loss: 0.19368, avg_reader_cost: 1.91333 sec, avg_batch_cost: 1.99687 sec, avg_samples: 60.0, avg_ips: 30.04697 images/sec.
+Type : toothbrush Train [ Epoch 212/256 iter 1 ] lr: 0.02174, loss: 0.23667, avg_reader_cost: 1.89674 sec, avg_batch_cost: 1.97812 sec, avg_samples: 60.0, avg_ips: 30.33179 images/sec.
+Type : toothbrush Train [ Epoch 213/256 iter 1 ] lr: 0.02207, loss: 0.17328, avg_reader_cost: 2.04896 sec, avg_batch_cost: 2.13160 sec, avg_samples: 60.0, avg_ips: 28.14792 images/sec.
+Type : toothbrush Train [ Epoch 214/256 iter 1 ] lr: 0.02239, loss: 0.13001, avg_reader_cost: 1.78884 sec, avg_batch_cost: 1.86928 sec, avg_samples: 60.0, avg_ips: 32.09792 images/sec.
+Type : toothbrush Train [ Epoch 215/256 iter 1 ] lr: 0.02271, loss: 0.21184, avg_reader_cost: 1.87758 sec, avg_batch_cost: 1.97003 sec, avg_samples: 60.0, avg_ips: 30.45632 images/sec.
+Type : toothbrush Train [ Epoch 216/256 iter 1 ] lr: 0.02302, loss: 0.17959, avg_reader_cost: 1.91726 sec, avg_batch_cost: 1.99985 sec, avg_samples: 60.0, avg_ips: 30.00218 images/sec.
+Type : toothbrush Test [ Epoch 216/256 ] test_cost: 4.512591 sec max_auc: 0.99167 roc_auc : 0.983333.
+Type : toothbrush Train [ Epoch 217/256 iter 1 ] lr: 0.02333, loss: 0.22659, avg_reader_cost: 1.92169 sec, avg_batch_cost: 2.00688 sec, avg_samples: 60.0, avg_ips: 29.89709 images/sec.
+Type : toothbrush Train [ Epoch 218/256 iter 1 ] lr: 0.02364, loss: 0.14820, avg_reader_cost: 1.56002 sec, avg_batch_cost: 1.63976 sec, avg_samples: 60.0, avg_ips: 36.59082 images/sec.
+Type : toothbrush Train [ Epoch 219/256 iter 1 ] lr: 0.02394, loss: 0.23108, avg_reader_cost: 1.93650 sec, avg_batch_cost: 2.01894 sec, avg_samples: 60.0, avg_ips: 29.71863 images/sec.
+Type : toothbrush Train [ Epoch 220/256 iter 1 ] lr: 0.02423, loss: 0.19388, avg_reader_cost: 2.19618 sec, avg_batch_cost: 2.28211 sec, avg_samples: 60.0, avg_ips: 26.29143 images/sec.
+Type : toothbrush Train [ Epoch 221/256 iter 1 ] lr: 0.02452, loss: 0.15667, avg_reader_cost: 2.05724 sec, avg_batch_cost: 2.14249 sec, avg_samples: 60.0, avg_ips: 28.00473 images/sec.
+Type : toothbrush Train [ Epoch 222/256 iter 1 ] lr: 0.02480, loss: 0.25169, avg_reader_cost: 1.93806 sec, avg_batch_cost: 2.02201 sec, avg_samples: 60.0, avg_ips: 29.67347 images/sec.
+Type : toothbrush Train [ Epoch 223/256 iter 1 ] lr: 0.02507, loss: 0.23882, avg_reader_cost: 2.15364 sec, avg_batch_cost: 2.24110 sec, avg_samples: 60.0, avg_ips: 26.77256 images/sec.
+Type : toothbrush Train [ Epoch 224/256 iter 1 ] lr: 0.02534, loss: 0.18655, avg_reader_cost: 2.01601 sec, avg_batch_cost: 2.10122 sec, avg_samples: 60.0, avg_ips: 28.55485 images/sec.
+Type : toothbrush Test [ Epoch 224/256 ] test_cost: 4.262043 sec max_auc: 0.99167 roc_auc : 0.927778.
+Type : toothbrush Train [ Epoch 225/256 iter 1 ] lr: 0.02561, loss: 0.21465, avg_reader_cost: 2.10030 sec, avg_batch_cost: 2.18571 sec, avg_samples: 60.0, avg_ips: 27.45106 images/sec.
+Type : toothbrush Train [ Epoch 226/256 iter 1 ] lr: 0.02586, loss: 0.21103, avg_reader_cost: 2.08738 sec, avg_batch_cost: 2.17386 sec, avg_samples: 60.0, avg_ips: 27.60071 images/sec.
+Type : toothbrush Train [ Epoch 227/256 iter 1 ] lr: 0.02611, loss: 0.20732, avg_reader_cost: 2.12162 sec, avg_batch_cost: 2.20569 sec, avg_samples: 60.0, avg_ips: 27.20239 images/sec.
+Type : toothbrush Train [ Epoch 228/256 iter 1 ] lr: 0.02636, loss: 0.17405, avg_reader_cost: 1.99676 sec, avg_batch_cost: 2.08157 sec, avg_samples: 60.0, avg_ips: 28.82438 images/sec.
+Type : toothbrush Train [ Epoch 229/256 iter 1 ] lr: 0.02660, loss: 0.23897, avg_reader_cost: 2.18821 sec, avg_batch_cost: 2.27613 sec, avg_samples: 60.0, avg_ips: 26.36058 images/sec.
+Type : toothbrush Train [ Epoch 230/256 iter 1 ] lr: 0.02683, loss: 0.21289, avg_reader_cost: 1.89713 sec, avg_batch_cost: 1.97989 sec, avg_samples: 60.0, avg_ips: 30.30464 images/sec.
+Type : toothbrush Train [ Epoch 231/256 iter 1 ] lr: 0.02705, loss: 0.14914, avg_reader_cost: 2.10568 sec, avg_batch_cost: 2.19124 sec, avg_samples: 60.0, avg_ips: 27.38180 images/sec.
+Type : toothbrush Train [ Epoch 232/256 iter 1 ] lr: 0.02726, loss: 0.23412, avg_reader_cost: 1.98524 sec, avg_batch_cost: 2.06784 sec, avg_samples: 60.0, avg_ips: 29.01584 images/sec.
+Type : toothbrush Test [ Epoch 232/256 ] test_cost: 4.743618 sec max_auc: 0.99167 roc_auc : 0.902778.
+Type : toothbrush Train [ Epoch 233/256 iter 1 ] lr: 0.02747, loss: 0.18600, avg_reader_cost: 1.87922 sec, avg_batch_cost: 1.96167 sec, avg_samples: 60.0, avg_ips: 30.58616 images/sec.
+Type : toothbrush Train [ Epoch 234/256 iter 1 ] lr: 0.02767, loss: 0.18842, avg_reader_cost: 1.77303 sec, avg_batch_cost: 1.85551 sec, avg_samples: 60.0, avg_ips: 32.33604 images/sec.
+Type : toothbrush Train [ Epoch 235/256 iter 1 ] lr: 0.02787, loss: 0.18831, avg_reader_cost: 1.70510 sec, avg_batch_cost: 1.78523 sec, avg_samples: 60.0, avg_ips: 33.60906 images/sec.
+Type : toothbrush Train [ Epoch 236/256 iter 1 ] lr: 0.02805, loss: 0.18561, avg_reader_cost: 2.01339 sec, avg_batch_cost: 2.09621 sec, avg_samples: 60.0, avg_ips: 28.62309 images/sec.
+Type : toothbrush Train [ Epoch 237/256 iter 1 ] lr: 0.02823, loss: 0.12474, avg_reader_cost: 2.09907 sec, avg_batch_cost: 2.18352 sec, avg_samples: 60.0, avg_ips: 27.47861 images/sec.
+Type : toothbrush Train [ Epoch 238/256 iter 1 ] lr: 0.02840, loss: 0.27000, avg_reader_cost: 1.94895 sec, avg_batch_cost: 2.03347 sec, avg_samples: 60.0, avg_ips: 29.50624 images/sec.
+Type : toothbrush Train [ Epoch 239/256 iter 1 ] lr: 0.02856, loss: 0.21241, avg_reader_cost: 2.12597 sec, avg_batch_cost: 2.21045 sec, avg_samples: 60.0, avg_ips: 27.14375 images/sec.
+Type : toothbrush Train [ Epoch 240/256 iter 1 ] lr: 0.02871, loss: 0.20551, avg_reader_cost: 1.99724 sec, avg_batch_cost: 2.08184 sec, avg_samples: 60.0, avg_ips: 28.82072 images/sec.
+Type : toothbrush Test [ Epoch 240/256 ] test_cost: 4.754084 sec max_auc: 0.99167 roc_auc : 0.977778.
+Type : toothbrush Train [ Epoch 241/256 iter 1 ] lr: 0.02886, loss: 0.19800, avg_reader_cost: 2.05388 sec, avg_batch_cost: 2.13871 sec, avg_samples: 60.0, avg_ips: 28.05425 images/sec.
+Type : toothbrush Train [ Epoch 242/256 iter 1 ] lr: 0.02899, loss: 0.25836, avg_reader_cost: 2.13018 sec, avg_batch_cost: 2.21467 sec, avg_samples: 60.0, avg_ips: 27.09208 images/sec.
+Type : toothbrush Train [ Epoch 243/256 iter 1 ] lr: 0.02912, loss: 0.26788, avg_reader_cost: 2.12977 sec, avg_batch_cost: 2.21383 sec, avg_samples: 60.0, avg_ips: 27.10236 images/sec.
+Type : toothbrush Train [ Epoch 244/256 iter 1 ] lr: 0.02924, loss: 0.19707, avg_reader_cost: 2.14858 sec, avg_batch_cost: 2.23285 sec, avg_samples: 60.0, avg_ips: 26.87143 images/sec.
+Type : toothbrush Train [ Epoch 245/256 iter 1 ] lr: 0.02935, loss: 0.24043, avg_reader_cost: 1.99285 sec, avg_batch_cost: 2.07647 sec, avg_samples: 60.0, avg_ips: 28.89521 images/sec.
+Type : toothbrush Train [ Epoch 246/256 iter 1 ] lr: 0.02946, loss: 0.19215, avg_reader_cost: 2.01239 sec, avg_batch_cost: 2.09607 sec, avg_samples: 60.0, avg_ips: 28.62507 images/sec.
+Type : toothbrush Train [ Epoch 247/256 iter 1 ] lr: 0.02955, loss: 0.22847, avg_reader_cost: 1.98925 sec, avg_batch_cost: 2.07311 sec, avg_samples: 60.0, avg_ips: 28.94204 images/sec.
+Type : toothbrush Train [ Epoch 248/256 iter 1 ] lr: 0.02964, loss: 0.14908, avg_reader_cost: 2.09002 sec, avg_batch_cost: 2.17485 sec, avg_samples: 60.0, avg_ips: 27.58814 images/sec.
+Type : toothbrush Test [ Epoch 248/256 ] test_cost: 4.387255 sec max_auc: 0.99167 roc_auc : 0.958333.
+Type : toothbrush Train [ Epoch 249/256 iter 1 ] lr: 0.02971, loss: 0.22493, avg_reader_cost: 2.06771 sec, avg_batch_cost: 2.15241 sec, avg_samples: 60.0, avg_ips: 27.87569 images/sec.
+Type : toothbrush Train [ Epoch 250/256 iter 1 ] lr: 0.02978, loss: 0.15147, avg_reader_cost: 1.94478 sec, avg_batch_cost: 2.02811 sec, avg_samples: 60.0, avg_ips: 29.58416 images/sec.
+Type : toothbrush Train [ Epoch 251/256 iter 1 ] lr: 0.02984, loss: 0.21557, avg_reader_cost: 2.05259 sec, avg_batch_cost: 2.14662 sec, avg_samples: 60.0, avg_ips: 27.95089 images/sec.
+Type : toothbrush Train [ Epoch 252/256 iter 1 ] lr: 0.02989, loss: 0.20022, avg_reader_cost: 1.95132 sec, avg_batch_cost: 2.03584 sec, avg_samples: 60.0, avg_ips: 29.47193 images/sec.
+Type : toothbrush Train [ Epoch 253/256 iter 1 ] lr: 0.02993, loss: 0.20938, avg_reader_cost: 2.02549 sec, avg_batch_cost: 2.11085 sec, avg_samples: 60.0, avg_ips: 28.42458 images/sec.
+Type : toothbrush Train [ Epoch 254/256 iter 1 ] lr: 0.02996, loss: 0.25344, avg_reader_cost: 1.96379 sec, avg_batch_cost: 2.04878 sec, avg_samples: 60.0, avg_ips: 29.28577 images/sec.
+Type : toothbrush Train [ Epoch 255/256 iter 1 ] lr: 0.02998, loss: 0.19855, avg_reader_cost: 2.09640 sec, avg_batch_cost: 2.18022 sec, avg_samples: 60.0, avg_ips: 27.52021 images/sec.
+Type : toothbrush Train [ Epoch 256/256 iter 1 ] lr: 0.03000, loss: 0.22953, avg_reader_cost: 1.93986 sec, avg_batch_cost: 2.02368 sec, avg_samples: 60.0, avg_ips: 29.64899 images/sec.
+Type : toothbrush Test [ Epoch 256/256 ] test_cost: 5.129636 sec max_auc: 0.99167 roc_auc : 0.941667.

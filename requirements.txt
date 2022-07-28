@@ -1,0 +1,5 @@
+paddlepaddle
+sklearn
+pandas
+numpy
+matplotlib

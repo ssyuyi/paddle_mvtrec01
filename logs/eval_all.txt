@@ -1,0 +1,62 @@
+Namespace(cuda=True, density='paddle', head_layer=1, model_dir='../models_param2/mvtec', save_plots=True, type='all')
+evaluating bottle
+loading model ../models_param2/mvtec/model_bottle
+[512, 128]
+bottle AUC: 1.0
+evaluating cable
+loading model ../models_param2/mvtec/model_cable
+[512, 128]
+cable AUC: 0.9246626686656673
+evaluating capsule
+loading model ../models_param2/mvtec/model_capsule
+[512, 128]
+capsule AUC: 0.9285999202233746
+evaluating carpet
+loading model ../models_param2/mvtec/model_carpet
+[512, 128]
+carpet AUC: 0.8976725521669342
+evaluating grid
+loading model ../models_param2/mvtec/model_grid
+[512, 128]
+grid AUC: 0.9991645781119465
+evaluating hazelnut
+loading model ../models_param2/mvtec/model_hazelnut
+[512, 128]
+hazelnut AUC: 0.9657142857142857
+evaluating leather
+loading model ../models_param2/mvtec/model_leather
+[512, 128]
+leather AUC: 1.0
+evaluating metal_nut
+loading model ../models_param2/mvtec/model_metal_nut
+[512, 128]
+metal_nut AUC: 0.9604105571847507
+evaluating pill
+loading model ../models_param2/mvtec/model_pill
+[512, 128]
+pill AUC: 0.9549918166939444
+evaluating screw
+loading model ../models_param2/mvtec/model_screw
+[512, 128]
+screw AUC: 0.862881738061078
+evaluating tile
+loading model ../models_param2/mvtec/model_tile
+[512, 128]
+tile AUC: 0.9895382395382395
+evaluating toothbrush
+loading model ../models_param2/mvtec/model_toothbrush
+[512, 128]
+toothbrush AUC: 0.9916666666666667
+evaluating transistor
+loading model ../models_param2/mvtec/model_transistor
+[512, 128]
+transistor AUC: 0.9558333333333333
+evaluating wood
+loading model ../models_param2/mvtec/model_wood
+[512, 128]
+wood AUC: 0.987719298245614
+evaluating zipper
+loading model ../models_param2/mvtec/model_zipper
+[512, 128]
+zipper AUC: 1.0
+0.961257043640389
