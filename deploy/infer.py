@@ -171,7 +171,7 @@ def get_args(add_help=True):
     parser.add_argument(
         "--resize_size", default=256, type=int, help="resize_size")
     parser.add_argument("--crop_size", default=256, type=int, help="crop_szie")
-    parser.add_argument("--img_path", default="../demo/bottle_good.png")
+    parser.add_argument("--img_path", default="demo/bottle_good.png")
     parser.add_argument(
         "--benchmark", default=False, type=str2bool, help="benchmark")
     parser.add_argument("--warmup", default=0, type=int, help="warmup iter")

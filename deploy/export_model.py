@@ -15,13 +15,13 @@ def get_args(add_help=True):
     parser = argparse.ArgumentParser(
         description='PaddlePaddle Classification Training', add_help=add_help)
 
-    parser.add_argument('--model_path', default='../models_param', help='model_weight')
+    parser.add_argument('--model_path', default='models_param', help='model_weight')
     parser.add_argument('--headlayer', default=1,type=int, help='headlayer for the model')
     parser.add_argument('--data_type', default='bottle', help='defect type for the model')
     parser.add_argument('--device', default='gpu', help='device')
     parser.add_argument('--img_size', default=256, help='image size to export')
     parser.add_argument(
-        '--save_inference_dir', default='./', help='path where to save')
+        '--save_inference_dir', default='deploy', help='path where to save')
     parser.add_argument('--pretrained', default=None, help='pretrained model')
     parser.add_argument('--num_classes', default=3,type=int, help='num_classes')
 
