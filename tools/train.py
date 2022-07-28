@@ -32,10 +32,10 @@ parser.add_argument('--model_dir', default="models_param",
 parser.add_argument('--logs_dir', default="logs",
                     help='logs folder of the models ')
 
-parser.add_argument('--cuda', default=True, type=bool,
+parser.add_argument('--cuda', default=True,
                     help='use cuda for training (default: False)')
 
-parser.add_argument('--pretrained', dest='pretrained', default=True, type=bool,
+parser.add_argument('--no_pretrained', default=True, action='store_false',
                     help='use pretrained values to initalize ResNet18 , (default: True)')
 
 parser.add_argument('--test_epochs', default=8, type=int,
@@ -239,7 +239,7 @@ def run_training(
 
 
 if __name__ == '__main__':
-    paddle.device.set_device('gpu:0' if args.cuda else 'cpu')
+    paddle.device.set_device("cpu" if args.cuda in ["False","no","false",'0',0,False] else "gpu:0")
 
     paddle.seed(args.seed)
     np.random.seed(args.seed)
@@ -285,7 +285,7 @@ if __name__ == '__main__':
             data_dir=args.data_dir,
             model_dir=Path(args.model_dir),
             epochs=args.epochs,
-            pretrained=args.pretrained,
+            pretrained=args.no_pretrained,
             test_epochs=args.test_epochs,
             freeze_resnet=args.freeze_resnet,
             learninig_rate=args.lr,

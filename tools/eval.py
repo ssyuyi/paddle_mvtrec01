@@ -27,7 +27,7 @@ parser.add_argument('--data_dir', default="images",
 parser.add_argument('--logs_dir', default="logs",
                     help='logs folder of the models ')
 
-parser.add_argument('--cuda', default=True, type=bool,
+parser.add_argument('--cuda', default=True,
                     help='use cuda for model predictions (default: False)')
 
 parser.add_argument('--head_layer', default=1, type=int,
@@ -36,7 +36,7 @@ parser.add_argument('--head_layer', default=1, type=int,
 parser.add_argument('--density', default="paddle", choices=["paddle", "sklearn"],
                     help='density implementation to use. See `density.py` for both implementations. (default: torch)')
 
-parser.add_argument('--save_plots', default=True, type=bool,
+parser.add_argument('--save_plots', default=True,
                     help='save TSNE and roc plots')
 parser.add_argument('--seed', default=1012, type=int, help="number of random seed")
 args = parser.parse_args()
@@ -102,7 +102,7 @@ if __name__ == '__main__':
         os.makedirs(f'{args.logs_dir}')
     logger = Logger(f"{args.logs_dir}/eval_process.txt")
 
-    paddle.device.set_device('gpu:0' if args.cuda else 'cpu')
+    paddle.device.set_device("cpu" if args.cuda in ["False","no","false",'0',0,False] else "gpu:0")
     print(args)
     all_types = ['bottle',
                  'cable',
