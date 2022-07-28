@@ -79,6 +79,7 @@ paddle_autec
         |--predict.py                  # 预测代码
         |--train.py                    # 训练代码
     |----README.md                     # 用户手册
+    |----requirements.txt              # 依赖包
 ```
 
 ### 3.2 准备环境
