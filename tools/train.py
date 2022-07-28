@@ -33,7 +33,7 @@ parser.add_argument('--logs_dir', default="logs",
                     help='logs folder of the models ')
 
 parser.add_argument('--cuda', default=True,
-                    help='use cuda for training (default: False)')
+                    help='use cuda for training')
 
 parser.add_argument('--no_pretrained', default=True, action='store_false',
                     help='use pretrained values to initalize ResNet18 , (default: True)')
