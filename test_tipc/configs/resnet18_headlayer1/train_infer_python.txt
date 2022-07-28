@@ -6,7 +6,7 @@ gpu_list:0
 --epochs:lite_train_lite_infer=5|whole_train_whole_infer=256
 --model_dir:models_param
 --batch_size:lite_train_lite_infer=4|whole_train_whole_infer=96
---pretrained:True
+--pretrained:null
 train_model_name:model_bottle.pdparams
 --data_dir:lite_data
 ##
