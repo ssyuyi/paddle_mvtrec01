@@ -31,8 +31,8 @@ cutpaste是一种简单有效的自监督学习方法，其目标是构建一个
 ## 2. 数据集和复现精度
 
 - 数据集大小：共包含15个物品类别，解压后总大小在4.92G左右
-- 数据集下载链接：[mvtec](链接：https://pan.baidu.com/s/1KQR4kIBHJVDlnaO1SpqyKg?pwd=0722) 提取码：0722  解压到images文件夹
-- 训练权重下载链接：[pdparams & pkl](链接：https://pan.baidu.com/s/1stWIojfxf69c630R9q62xA?pwd=0722) 提取码：0722  解压到models_param文件夹
+- 数据集下载链接：[mvtec](https://pan.baidu.com/s/1KQR4kIBHJVDlnaO1SpqyKg?pwd=0722) 提取码：0722  解压到images文件夹
+- 训练权重下载链接：[pdparams & pkl](https://pan.baidu.com/s/1stWIojfxf69c630R9q62xA?pwd=0722) 提取码：0722  解压到models_param文件夹
 - 
 # 复现精度（Comparison to Li et al.）
 | defect_type   | Runinho. CutPaste (3-way) | Li et al. CutPaste (3-way) | CutPaste (3-way) 复现|
@@ -92,7 +92,7 @@ paddle_autec
 ### 3.3 准备数据
 
 - 全量数据训练：
-  - 下载好 [metec-ad](https://www.mvtec.com/company/research/datasets/mvtec-ad/) 数据集
+  - 下载好 [metec](https://pan.baidu.com/s/1KQR4kIBHJVDlnaO1SpqyKg?pwd=0722) 提取码：0722 数据集
   - 将其解压到 **images** 文件夹下
 - 少量数据训练：
   - 无需下载数据集，使用lite_data里的数据即可
