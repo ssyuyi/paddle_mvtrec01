@@ -1,0 +1,1 @@
+Namespace(batch_size=96, cuda=True, epochs=256, freeze_resnet=20, head_layer=1, lr=0.03, model_dir='../models_param2/mvtec', optim='sgd', pretrained=True, seed=1012, test_epochs=8, type='bottle,grid,hazelnut,leather,metal_nut,pill', variant='3way', workers=8)
