@@ -1,10 +1,14 @@
+import sys
+import os
+__dir__ = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.abspath(os.path.join(__dir__, '../')))
+
+
 import paddle
 import paddle.nn as nn
 import paddle.nn.functional as F
 from paddle.static import InputSpec
-import os
 import pickle
-import sys
 import numpy as np
 from tools.density import GaussianDensityPaddle
 paddle.set_device("cpu")
