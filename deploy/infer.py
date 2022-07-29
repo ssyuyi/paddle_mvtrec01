@@ -157,7 +157,7 @@ def get_args(add_help=True):
         "--use_gpu", default=False, type=str2bool, help="use_gpu")
     parser.add_argument(
         "--max_batch-size", default=16, type=int, help="max_batch_size")
-    parser.add_argument("--batch-size", default=1, type=int, help="batch size")
+    parser.add_argument("--batch_size", default=1, type=int, help="batch size")
     parser.add_argument("--data_type", default="bottle", help="data type for the model")
     parser.add_argument(
         "--resize_size", default=256, type=int, help="resize_size")

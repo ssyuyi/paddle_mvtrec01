@@ -59,7 +59,7 @@ def export(args):
         'mean': density.mean.numpy(),
         'best_threshold': density.best_threshold.numpy()
     }
-    with open(args.save_inference_dir + 'model_'+args.data_type + f'_dict_data.pkl', 'wb') as fo:
+    with open(args.save_inference_dir + '/model_'+args.data_type + f'_dict_data.pkl', 'wb') as fo:
         pickle.dump(dict_data, fo)
 
     print(f"inference model has been saved into {args.save_inference_dir}")

@@ -18,7 +18,7 @@ parser = argparse.ArgumentParser(description='eval models')
 parser.add_argument('--type', default="all",
                     help='MVTec defection dataset type to train seperated by , (default: "all": train all defect types)')
 
-parser.add_argument('--model_dir', default="models_param",
+parser.add_argument('--pretrained', default="models_param",
                     help=' directory contating models to evaluate (default: models)')
 
 parser.add_argument('--data_dir', default="images",
@@ -57,7 +57,7 @@ class Logger(object):
         pass
 
 
-def eval_model(data_dir="../images", model_dir=None, data_type=None, size=256,
+def eval_model(data_dir="../images", pretrained=None, data_type=None, size=256,
                head_layer=8, density=GaussianDensityPaddle()):
     test_transform = transforms.Compose([])
     test_transform.transforms.append(transforms.Resize((size, size)))
@@ -67,7 +67,7 @@ def eval_model(data_dir="../images", model_dir=None, data_type=None, size=256,
     test_data_eval = MVTecAT(data_dir, data_type, size, transform=test_transform, mode="test")
     dataloader_test = DataLoader(test_data_eval, batch_size=64,
                                  shuffle=False, num_workers=0)
-    model_name = model_dir+'/model_'+data_type
+    model_name = pretrained+'/model_'+data_type
     print(f"loading model {model_name}")
     head_layers = [512] * head_layer + [128]
     print(head_layers)
@@ -132,20 +132,20 @@ if __name__ == '__main__':
     density = density_mapping[args.density]
 
     # find models
-    model_names = [Path(args.model_dir) / f"model_{data_type}" for data_type in types if
-                   len(list(Path(args.model_dir).glob(f"model_{data_type}*"))) > 0]
+    model_names = [Path(args.pretrained) / f"model_{data_type}" for data_type in types if
+                   len(list(Path(args.pretrained).glob(f"model_{data_type}*"))) > 0]
     if len(model_names) < len(all_types):
         print("warning: not all types present in folder")
 
     obj = defaultdict(list)
     all_x = []
-    eval_dir = Path("eval") / args.model_dir
+    eval_dir = Path("eval") / args.pretrained
     eval_dir.mkdir(parents=True, exist_ok=True)
 
     for model_name, data_type in zip(model_names, types):
         print(f"evaluating {data_type}")
 
-        roc_auc = eval_model(data_dir=args.data_dir, model_dir=args.model_dir, data_type=data_type,
+        roc_auc = eval_model(data_dir=args.data_dir, pretrained=args.pretrained, data_type=data_type,
                              head_layer=args.head_layer, density=density())
 
         print(f"{data_type} AUC: {roc_auc}")

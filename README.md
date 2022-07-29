@@ -192,8 +192,18 @@ image_name: demo/bottle_good.png, data is normal, score is 12.283802032470703, t
 
 
 ## 6. 自动化测试脚本
+-tipc一键测试命令
 
-[tipc创建及基本使用方法。](https://github.com/PaddlePaddle/models/blob/release/2.2/tutorials/tipc/train_infer_python/test_train_infer_python.md)
+-少量数据集测试：`bash test_tipc/test_train_inference_python.sh test_tipc/configs/resnet18/train_infer_python.txt  lite_train_lite_infer` 
+
+结果日志如下
+```
+[33m Run successfully with command - resnet18 - python tools/train.py --test_epochs=3 --data_dir=lite_data --type=bottle,grid --model_dir=log/resnet18/lite_train_lite_infer/norm_train_gpus_0 --model_dir=log/resnet18/lite_train_lite_infer/norm_train_gpus_0 --epochs=3   --batch_size=5!  [0m
+[33m Run successfully with command - resnet18 - python tools/eval.py --type=bottle,grid --pretrained=log/resnet18/lite_train_lite_infer/norm_train_gpus_0!  [0m
+[33m Run successfully with command - resnet18 - python deploy/export_model.py --pretrained=log/resnet18/lite_train_lite_infer/norm_train_gpus_0/ --save_inference_dir=log/resnet18/lite_train_lite_infer/norm_train_gpus_0!  [0m
+[33m Run successfully with command - resnet18 - python deploy/infer.py --use_gpu=True --model_dir=log/resnet18/lite_train_lite_infer/norm_train_gpus_0 --batch_size=1   --data_type=bottle > log/resnet18/lite_train_lite_infer/python_infer_gpu_batchsize_1.log 2>&1 !  [0m
+[33m Run successfully with command - resnet18 - python deploy/infer.py --use_gpu=False --model_dir=log/resnet18/lite_train_lite_infer/norm_train_gpus_0 --batch_size=1   --data_type=bottle > log/resnet18/lite_train_lite_infer/python_infer_cpu_batchsize_1.log 2>&1 !  [0m
+```
 
 
 ## 7. LICENSE

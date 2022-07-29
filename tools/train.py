@@ -26,10 +26,10 @@ parser.add_argument('--epochs', default=256, type=int,
 parser.add_argument('--data_dir', default="images",
                     help='input folder of the models ,')
 
-parser.add_argument('--model_dir', default="models_param",
+parser.add_argument('--model_dir', default="modelsx_param",
                     help='output folder of the models , (default: models)')
 
-parser.add_argument('--logs_dir', default="logs",
+parser.add_argument('--logs_dir', default="logs3",
                     help='logs folder of the models ')
 
 parser.add_argument('--cuda', default=True,
@@ -38,7 +38,7 @@ parser.add_argument('--cuda', default=True,
 parser.add_argument('--no_pretrained', default=True, action='store_false',
                     help='use pretrained values to initalize ResNet18 , (default: True)')
 
-parser.add_argument('--test_epochs', default=8, type=int,
+parser.add_argument('--test_epochs', default=1, type=int,
                     help='interval to calculate the auc during trainig, if -1 do not calculate test scores, (default: 10)')
 
 parser.add_argument('--freeze_resnet', default=20, type=int,
@@ -59,7 +59,7 @@ parser.add_argument('--head_layer', default=1, type=int,
 parser.add_argument('--variant', default="3way", choices=['normal', 'scar', '3way', 'union'],
                     help='cutpaste variant to use (dafault: "3way")')
 
-parser.add_argument('--workers', default=8, type=int, help="number of workers to use for data loading (default:8)")
+parser.add_argument('--workers', default=1, type=int, help="number of workers to use for data loading (default:8)")
 parser.add_argument('--seed', default=1012, type=int, help="number of random seed")
 
 args = parser.parse_args()
@@ -93,7 +93,7 @@ def run_training(
         batch_size=64,
         head_layer=8,
         cutpate_type=CutPasteNormal,
-        workers=8,
+        workers=1,
         size=256,
         print_freq = 1,
         test_batch_size=64
@@ -210,11 +210,12 @@ def run_training(
                     embeds, logits = model(test_data)
                     test_embeds.append(embeds)
                     test_labels.append(labels)
+                test_labels = paddle.concat(test_labels)
                 test_embeds = paddle.concat(test_embeds)
                 test_embeds = paddle.nn.functional.normalize(test_embeds, p=2, axis=1)
 
                 distances = density.predict(test_embeds.cpu())
-                fpr, tpr, threshold = roc_curve(labels, distances)
+                fpr, tpr, threshold = roc_curve(test_labels, distances)
                 right_index = (tpr + (1 - fpr) - 1)
                 index = np.argmax(right_index)
                 best_threshold = threshold[index]
@@ -223,8 +224,9 @@ def run_training(
                     'mean': density.mean.numpy(),
                     'best_threshold': best_threshold
                 }
-                with open(f'{model_name}_dict_data.pkl', 'wb') as fo:
-                    pickle.dump(dict_data, fo)
+                fo =  open(str(model_dir / f"{model_name}_dict_data.pkl"), 'wb')
+                pickle.dump(dict_data, fo)
+                fo.close()
                 roc_auc = auc(fpr, tpr)
 
             model.train()
@@ -239,7 +241,7 @@ def run_training(
 
 
 if __name__ == '__main__':
-    paddle.device.set_device("cpu" if args.cuda in ["False","no","false",'0',0,False] else "gpu:0")
+    paddle.set_device("cpu" if args.cuda in ["False","no","false",'0',0,False] else "gpu")
 
     paddle.seed(args.seed)
     np.random.seed(args.seed)
