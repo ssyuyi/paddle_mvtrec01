@@ -174,7 +174,7 @@ grid AUC: 0.9991645781119465
 - 基于推理引擎的模型预测：
 ```
 python deploy/export_model.py
-python deploy/infer.py --defect_type bottle --img_path demo/bottle_good.png
+python deploy/infer.py --data_type bottle --img_path demo/bottle_good.png
 ```
 部分结果如下：
 ```
