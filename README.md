@@ -61,7 +61,7 @@ cutpaste是一种简单有效的自监督学习方法，其目标是构建一个
 ### 3.1 目录介绍
 
 ```
-paddle_autec
+paddle_mvtrec01
     |--demo                            # 测试使用的样例图片，两张
     |--deploy                          # 预测部署相关
         |--export_model.py             # 导出模型
