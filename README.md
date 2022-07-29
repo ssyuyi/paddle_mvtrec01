@@ -163,7 +163,7 @@ grid AUC: 0.9991645781119465
 预测结果：正常数据
 ### 4.3 模型预测（需要预先完成4.1训练）
 
-- 基于原始代码的模型预测：`python tools/predict.py --defect_type bottle --img_file demo/bottle_good.png`
+- 基于原始代码的模型预测：`python tools/predict.py --data_type bottle --img_file demo/bottle_good.png`
 
 部分结果如下：
 ```

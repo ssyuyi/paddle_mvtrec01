@@ -28,5 +28,5 @@ inference:deploy/infer.py
 --use_gpu:True
 --batch_size:1
 --model_dir:deploy
---img_path:demo/bottle_good
+--img_path:demo/bottle_good.png
 --benchmark:False

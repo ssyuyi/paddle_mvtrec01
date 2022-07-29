@@ -10,7 +10,7 @@ import numpy as np
 
 parser = argparse.ArgumentParser(description='use this model.')
 parser.add_argument('--cuda', default=True, help='use gpu')
-parser.add_argument('--defect_type', default='bottle', type=str, help='which defect type need to be detected')
+parser.add_argument('--data_type', default='bottle', type=str, help='which data type need to be detected')
 parser.add_argument('--img_file', default='demo/bottle_good.png', type=str, help='the path of image that will be detected')
 parser.add_argument('--model_params', default='models_param/', type=str,
                     help='where the params of model saved')
@@ -60,5 +60,5 @@ if __name__=='__main__':
     np.random.seed(args.seed)
 
     paddle.device.set_device("cpu" if args.cuda in ["False","no","false",'0',0,False] else "gpu:0")
-    model_name = args.model_params+"model_"+args.defect_type
+    model_name = args.model_params+"model_"+args.data_type
     infer(model_name, args.img_file)
