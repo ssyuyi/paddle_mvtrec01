@@ -68,14 +68,14 @@ paddle_autec
     |--images                          # 训练和测试数据集
     |--lite_data                       # 自建立的小数据集，只有bottle和grid两个
     |--logs                            # 训练train和测试eval打印的日志信息  
-    |--models_param                    # 训练的模型权
+    |--models_param                    # 训练的模型权值
     |--test_tipc                       # tipc代码
     |--tools                           # 工具类文件
         |--cutpaste.py                 # 论文代码
         |--dataset.py                  # 数据加载
         |--density.py                  # 高斯聚类代码
         |--eval.py                     # 评估代码
-        |--model.py                    # 论文模型 res18
+        |--model.py                    # 论文模型
         |--predict.py                  # 预测代码
         |--train.py                    # 训练代码
     |----README.md                     # 用户手册
