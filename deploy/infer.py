@@ -152,7 +152,7 @@ def get_args(add_help=True):
         description="PaddlePaddle Classification Training", add_help=add_help)
 
     parser.add_argument(
-        "--model_dir", default=".", help="inference model dir")
+        "--model_dir", default="deploy", help="inference model dir")
     parser.add_argument(
         "--use_gpu", default=False, type=str2bool, help="use_gpu")
     parser.add_argument(
