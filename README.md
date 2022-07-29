@@ -134,7 +134,7 @@ Type : bottle Train [ Epoch 3/256 iter 2 ] lr: 0.02998, loss: 0.25799, avg_reade
 
 ### 4.2 模型评估
 
-- 全量数据模型评估：`python eval.py --cuda True`
+- 全量数据模型评估：`python eval.py --cuda False`
 - 少量数据模型评估：`python tools/eval.py --data_dir lite_data --type bottle --cuda False`
 ```
 Namespace(cuda=True, density='paddle', head_layer=1, model_dir='../models_param2/mvtec', save_plots=True, type='all')
