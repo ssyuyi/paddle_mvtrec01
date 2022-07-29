@@ -6,9 +6,9 @@ import os
 import pickle
 import sys
 import numpy as np
-from paddle_autec.tools.density import GaussianDensityPaddle
+from tools.density import GaussianDensityPaddle
 paddle.set_device("cpu")
-from paddle_autec.tools.model import ProjectionNet
+from tools.model import ProjectionNet
 
 def get_args(add_help=True):
     import argparse

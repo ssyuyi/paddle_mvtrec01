@@ -18,7 +18,7 @@ from paddle import inference
 import numpy as np
 from PIL import Image
 from paddle.vision import transforms
-from paddle_autec.tools.density import GaussianDensityPaddle
+from tools.density import GaussianDensityPaddle
 
 
 class InferenceEngine(object):
