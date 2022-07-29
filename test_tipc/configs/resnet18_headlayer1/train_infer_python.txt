@@ -6,19 +6,17 @@ gpu_list:0
 --epochs:lite_train_lite_infer=5|whole_train_whole_infer=256
 --model_dir:models_param
 --batch_size:lite_train_lite_infer=4|whole_train_whole_infer=96
---pretrained:null
 train_model_name:final.pdparams
 --data_dir:lite_data
 ##
 trainer:norm_train
-norm_train:train.py --type bottle
+norm_train:tools/train.py --type bottle
 ##
 ===========================eval_params===========================
 eval:tools/eval.py --type bottle
 ##
 ===========================infer_params===========================
---save-inference-dir:./output/mobilenet_v3_small_infer/
---no_pretrained:
+--save-inference-dir:deploy
 norm_export:tools/export_model.py
 ##
 train_model:models_param/model_bottle.pdparams
