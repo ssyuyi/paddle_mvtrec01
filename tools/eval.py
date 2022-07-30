@@ -15,13 +15,13 @@ import os
 
 
 parser = argparse.ArgumentParser(description='eval models')
-parser.add_argument('--type', default="all",
+parser.add_argument('--type', default="bottle,grid",
                     help='MVTec defection dataset type to train seperated by , (default: "all": train all defect types)')
 
 parser.add_argument('--pretrained', default="models_param",
                     help=' directory contating models to evaluate (default: models)')
 
-parser.add_argument('--data_dir', default="images",
+parser.add_argument('--data_dir', default="lite_data",
                     help=' directory contating data to evaluate')
 
 parser.add_argument('--logs_dir', default="logs",
