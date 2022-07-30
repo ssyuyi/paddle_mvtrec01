@@ -1,9 +1,9 @@
 全量训练及验证：
-python tools/eval.py
-python tools/train.py --epochs 256 --batch_size 96
+python tools/train.py --epochs 256 --batch_size 96 --cuda True
+python tools/eval.py --data_dir images --type all --cuda True
 lite_data训练及验证：
 python tools/train.py --data_dir lite_data --type bottle --epochs 5 --batch_size 4
-python tools/eval.py --data_dir lite_data --type bottle
+python tools/eval.py --data_dir lite_data --type bottle --cuda False
 
 预测demo（需要先运行train.py和eval.py）:
 基于代码预测：
