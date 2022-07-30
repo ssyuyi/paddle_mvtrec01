@@ -194,7 +194,7 @@ image_name: demo/bottle_good.png, data is normal, score is 12.283802032470703, t
 ## 6. 自动化测试脚本
 -tipc 所有代码一键测试命令（少量数据集）
 ```
-bash test_tipc/test_train_inference_python.sh test_tipc/configs/resnet18/train_infer_python.txt lite_train_lite_infer` 
+bash test_tipc/test_train_inference_python.sh test_tipc/configs/resnet18/train_infer_python.txt lite_train_lite_infer 
 ```
 
 结果日志如下
