@@ -114,7 +114,7 @@ paddle_mvtrec01
   - 下载好 [metec-ad](https://www.mvtec.com/company/research/datasets/mvtec-ad/) 数据集后，将其解压到 **./images** 文件夹下
   - 运行指令`python tools/train.py --epochs 256 --batch_size 96 --cuda True`
 - 少量数据训练：
-  - 运行指令`python tools/train.py --data_dir lite_data --type bottle --epochs 5 --batch_size 4 --cuda False`
+  - 运行指令`python tools/train.py --data_dir lite_data --type bottle --epochs 5 --test_epochs 5 --batch_size 4 --cuda False`
 - 部分训练日志如下所示：
 ```
 ############################
