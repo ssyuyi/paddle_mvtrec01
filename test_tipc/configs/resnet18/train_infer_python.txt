@@ -14,7 +14,7 @@ trainer:norm_train
 norm_train:tools/train.py --test_epochs=3 --data_dir=lite_data --type=bottle,grid --model_dir=log/resnet18/lite_train_lite_infer/norm_train_gpus_0
 ##
 ===========================eval_params===========================
-eval:tools/eval.py --type=bottle,grid --data_dir=lite_data --model_path=log/resnet18/lite_train_lite_infer/norm_train_gpus_0
+eval:tools/eval.py --type=bottle,grid
 ##
 ===========================infer_params===========================
 --save_inference_dir:./output/resnet18/lite_train_lite_infer
