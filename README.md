@@ -133,7 +133,7 @@ Type : bottle Train [ Epoch 3/256 iter 2 ] lr: 0.02998, loss: 0.25799, avg_reade
 ``` 
 
 
-### 4.2 模型评估
+### 4.2 模型评估(需完成训练)
 
 - 全量数据模型评估：`python tools/eval.py --data_dir images --type all --cuda True`
 - 少量数据模型评估：`python tools/eval.py --data_dir lite_data --type bottle --cuda False`
