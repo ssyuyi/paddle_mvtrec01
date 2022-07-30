@@ -26,10 +26,10 @@ parser.add_argument('--epochs', default=256, type=int,
 parser.add_argument('--data_dir', default="images",
                     help='input folder of the models ,')
 
-parser.add_argument('--model_dir', default="modelsx_param",
+parser.add_argument('--model_dir', default="models_param",
                     help='output folder of the models , (default: models)')
 
-parser.add_argument('--logs_dir', default="logs3",
+parser.add_argument('--logs_dir', default="logs",
                     help='logs folder of the models ')
 
 parser.add_argument('--cuda', default=True,
@@ -38,7 +38,7 @@ parser.add_argument('--cuda', default=True,
 parser.add_argument('--no_pretrained', default=True, action='store_false',
                     help='use pretrained values to initalize ResNet18 , (default: True)')
 
-parser.add_argument('--test_epochs', default=1, type=int,
+parser.add_argument('--test_epochs', default=16, type=int,
                     help='interval to calculate the auc during trainig, if -1 do not calculate test scores, (default: 10)')
 
 parser.add_argument('--freeze_resnet', default=20, type=int,
