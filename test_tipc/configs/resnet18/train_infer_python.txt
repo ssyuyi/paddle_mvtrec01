@@ -19,7 +19,7 @@ eval:tools/eval.py --type=bottle,grid
 ===========================infer_params===========================
 --save_inference_dir:./output/resnet18/lite_train_lite_infer
 --pretrained:
-norm_export:deploy/export_model.py
+norm_export:deploy/export_model.py --model_path=log/resnet18/lite_train_lite_infer/norm_train_gpus_0 --data_type=bottle
 ##
 train_model:./output/resnet18/lite_train_lite_infer/model_bottle.pdparams
 infer_export:deploy/export_model.py
