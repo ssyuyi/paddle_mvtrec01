@@ -238,7 +238,8 @@ def run_training(
             msg = "Type : {} Test [ Epoch {}/{} ] test_cost: {:5f} sec max_auc: {:.5f} roc_auc : {:5f}.".format(
                 data_type, epoch+1, epochs, test_end_time - test_start_time, max_roc, roc_auc)
             print(msg)
-
+        if epoch+1 == epochs and test_epochs > epochs:
+            paddle.save(model.state_dict(), str(model_dir / f"{model_name}.pdparams"))
 
 if __name__ == '__main__':
     paddle.set_device("cpu" if args.cuda in ["False","no","false",'0',0,False] else "gpu")
